@@ -1,0 +1,111 @@
+/* Align wide
+   ========================================================================== */
+body{
+    overflow-x: hidden;
+}
+.entry-content .alignwide{
+    margin-left: -120px;
+    margin-right: -120px;
+    width: calc(100% + 240px);
+    max-width: none;
+}
+.entry-content .alignfull{
+    margin-left: calc(50% - 50vw);
+    margin-right: calc(50% - 50vw);
+    width: 100vw !important;
+    max-width: 100vw;
+}
+.alignwide img,
+.alignfull img{
+    display: block;
+}
+@media (max-width: 990px){
+    .entry-content .alignwide{
+        margin-left: -5%;
+        margin-right: -5%;
+        width: 110% !important;
+    }
+}
+@media (max-width: 650px){
+    .entry-content .alignwide{
+        margin-left: -4%;
+        margin-right: -4%;
+        width: 108% !important;
+    }
+}
+/* Block image
+   ========================================================================== */
+.wp-block-image{
+    margin: 0 0 3rem;
+}
+.wp-block-image img{
+    display: block;
+}
+.wp-block-image figcaption{
+    font-size: .9em;
+    margin-top: 1rem;
+    font-style: italic;
+    line-height: 1.3;
+}
+/* Block columns
+   ========================================================================== */
+@media (min-width: 600px){
+    .wp-block-columns{
+        flex-wrap: nowrap;
+    }
+}
+.wp-block-columns .wp-block-column{
+    margin-bottom: 3rem;
+}
+.wp-block-columns .wp-block-column > *:last-child{
+    margin-bottom: 0;
+}
+/* Block gallery
+   ========================================================================== */
+.wp-block-gallery{
+    margin-left: 0 !important;
+}
+/* Block quote
+   ========================================================================== */
+.wp-block-quote{
+    margin: 0 0 3rem;
+    border-left: .4rem solid #333;
+    padding-left: 2rem;
+}
+.wp-block-quote::before{
+    display: none;
+}
+.wp-block-quote > p{
+    margin-bottom: 2rem;
+}
+.wp-block-quote > cite{
+    display: block;
+    opacity: .7;
+    font-size: .9em !important;
+}
+/* Block pullquote
+   ========================================================================== */
+.wp-block-pullquote{
+    border-top: .4rem solid #333;
+    border-bottom: .4rem solid #333;
+    padding: 4rem 0;
+}
+.wp-block-pullquote blockquote{
+    margin: 0;
+}
+.wp-block-pullquote blockquote::before{
+    display: none;
+}
+.wp-block-pullquote blockquote > p{
+    font-size: 2.5rem !important;
+}
+.wp-block-pullquote blockquote > cite{
+    display: block;
+    opacity: .7;
+    font-size: .9em !important;
+}
+/* Block verse
+   ========================================================================== */
+.wp-block-verse{
+    margin: 0 0 3rem;
+}

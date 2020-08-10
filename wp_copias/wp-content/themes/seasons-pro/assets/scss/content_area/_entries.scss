@@ -1,0 +1,118 @@
+/* ## Entries
+--------------------------------------------- */
+
+.entry,
+.page.page-template-page_blog .entry,
+.archive .entry {
+	padding-bottom: 10%;
+}
+
+.page .entry,
+.single .entry {
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+
+.entry-image {
+	margin-bottom: -8px;
+}
+
+.page.page-template-page_blog .entry-content {
+	max-width: none;
+}
+
+.entry-content p:last-child {
+	margin-bottom: 0;
+}
+
+.entry-content ol,
+.entry-content ul {
+	margin-bottom: 30px;
+	margin-left: 40px;
+}
+
+.entry-content ol > li {
+	list-style-type: decimal;
+}
+
+.entry-content ul > li {
+	list-style-type: disc;
+}
+
+.entry-content ol ol,
+.entry-content ul ul {
+	margin-bottom: 0;
+}
+
+img.alignleft.entry-image {
+	margin: 0 5% 0 0;
+	max-width: 40%;
+}
+.page-template-page_blog, .archive {
+	img.alignleft.entry-image {
+		background: #fff;
+		padding: 0 5% 0 0;
+		margin: 0;
+		max-width: 45%;
+	}
+	img.alignright.entry-image {
+		background: #fff;
+		padding: 0 0 0 5%;
+		margin: 0;
+		max-width: 45%;
+	}
+}
+
+.single .entry-content p.intro,
+.page:not(.page-template-page_blog) .entry-content p.intro {
+    display: block;
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 2em;
+    line-height: 2;
+}
+
+.single .entry-content p.intro:after,
+.page .entry-content p.intro:after {
+    content: " ";
+    border-bottom: 1px solid #f0f0f0;
+    margin: 40px auto;
+    display: block;
+}
+
+p.intro:first-letter {
+	float: left;
+    padding: 0.25em 0.05em 0.25em 0;
+    font-size: 60px;
+    font-size: 6rem;
+    font-weight: 500;
+    line-height: .8;
+    margin-right: 6px;
+}
+
+.error404 {
+	.entry-content {
+		text-align: center;
+		p:first-child {
+		    display: block;
+		    font-size: 22px;
+		    font-weight: 500;
+		    margin-bottom: 2em;
+		    line-height: 2;
+		}
+		h3 {
+			font-size: 104px;
+			font-size: 10.4rem;
+			letter-spacing: -9px;
+			span {
+				color: $normal;
+			}
+		}
+		h3:after {
+		    content: " ";
+		    border-bottom: 1px solid #f0f0f0;
+		    margin: 40px auto;
+		    display: block;
+		}
+	}
+}

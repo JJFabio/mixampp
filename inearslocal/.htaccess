@@ -1,0 +1,16 @@
+# This file was updated by Duplicator Pro on 2019-12-20 10:16:16.
+
+# BEGIN WordPress
+# Las directivas (líneas) entre `BEGIN WordPress` y `END WordPress` se generan dinámicamente
+# , y solo se deberían modificar mediante filtros de WordPress.
+# Cualquier cambio en las directivas que hay entre esos marcadores se sobreescribirán.
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /inearslocal/
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /inearslocal/index.php [L]
+</IfModule>
+
+# END WordPress

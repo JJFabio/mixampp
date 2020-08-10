@@ -1,0 +1,94 @@
+/* ## Woo Checkout
+--------------------------------------------- */
+.woocommerce-billing-fields {
+	h3 {
+		clear: both;
+	}
+}
+
+.checkout_coupon, .login {
+	.form-row {
+	    width: 100%;
+	    float: left;
+	    .input-text {
+			background-color: #f8f8f;
+			border: 1px solid #e5e5e5;
+	    }
+	    label.inline {
+	    	clear: both;
+	    	float: left;
+			position: relative;
+			display: block;
+			padding: .236em 0;
+	    }
+	}
+	.form-row-first {
+		width: 48%;
+	}
+	.form-row-last {
+		margin-left :4%;
+		width :48%;
+		.button {
+			border: 1px solid $normal;
+			width :100%;
+		}
+	}
+}
+
+#payment {
+    border: 1px solid #e9e9e9;
+    background-clip: padding;
+	 .payment_methods {
+	    margin: 0;
+	    border-bottom: 1px solid #e9e9e9;
+	    padding: 0;
+	    li {
+		    list-style: none;
+		    padding: 1em;
+		    border-bottom: 1px solid #e6e6e6;
+		    margin-left: 0;
+		    label {
+		    	margin-left: 10px;
+		    }
+		    a {
+		    	text-decoration: none;
+		    }
+		    p {
+		    	margin-bottom: 0;
+		    }
+		    img {
+		    	float: right;
+		    }
+		    .payment_box {
+			    padding: 1em;
+			    margin: 1em -1em -1em -1em;
+			    background-color: #f5f5f4;
+			}
+	    }
+	}
+	.place-order {
+		display: inline-block;
+    	padding: 1em;
+    	width: 100%;
+    	.button {
+    		width: 100%;
+    		float: right;
+    	}
+    }
+}
+
+.customer_details {
+	th {
+		width :48%;
+	}
+}
+
+.woocommerce address {
+	border: 1px solid #e9e9e9;
+	padding: .857em 1.387em;
+}
+
+.form-row.woocommerce-validated input.input-text, .form-row.woocommerce-validated select {
+    border-color: #a1c962;
+    background-color: #f5f9ee;
+}

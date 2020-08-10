@@ -1,0 +1,216 @@
+# Copyright (C) 2019 StudioPress
+# This file is distributed under the GNU General Public License v2.0 (or later).
+msgid ""
+msgstr ""
+"Project-Id-Version: Genesis Simple Edits 2.2.2\n"
+"Report-Msgid-Bugs-To: StudioPress <translations@studiopress.com>\n"
+"POT-Creation-Date: 2019-07-08 13:19:27+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2019-MO-DA HO:MI+ZONE\n"
+"Last-Translator: StudioPress <translations@studiopress.com>\n"
+"Language-Team: English <translations@studiopress.com>\n"
+"X-Generator: grunt-wp-i18n 0.4.4\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-Country: UNITED STATES\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: "
+"__;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;_nx_noop:1,2,3c;esc_"
+"attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;esc_html_x:1,2c;\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes\n"
+
+#: includes/class-genesis-simple-edits-admin.php:57
+msgid "Genesis - Simple Edits"
+msgstr ""
+
+#: includes/class-genesis-simple-edits-admin.php:58
+msgid "Simple Edits"
+msgstr ""
+
+#: includes/class-genesis-simple-edits-admin.php:76
+#: includes/class-genesis-simple-edits-admin.php:77
+#: includes/class-genesis-simple-edits-admin.php:83
+msgid "Copyright"
+msgstr ""
+
+#: includes/class-genesis-simple-edits-admin.php:76
+#: includes/class-genesis-simple-edits-admin.php:83
+msgid "On"
+msgstr ""
+
+#: includes/class-genesis-simple-edits-admin.php:80
+msgid "By"
+msgstr ""
+
+#: includes/class-genesis-simple-edits.php:110
+msgid "upgrade to"
+msgstr ""
+
+#: includes/class-genesis-simple-edits.php:110
+msgid "install and activate"
+msgstr ""
+
+#: includes/class-genesis-simple-edits.php:113
+#. Translators: String 1 is the version of WordPress required, String 2 is the
+#. version of Genesis required. String 3 is an expected action to take, String
+#. 4 is the URL of the Genesis Plugin.
+msgid ""
+"Genesis Simple Edits requires WordPress %1$s and Genesis %2$s, or greater. "
+"Please %3$s the latest version of <a href=\"%4$s\" "
+"target=\"_blank\">Genesis</a> to use this plugin."
+msgstr ""
+
+#: includes/views/admin.php:12
+msgid "Entry Meta (above content)"
+msgstr ""
+
+#: includes/views/admin.php:19
+msgid "Entry Meta (below content)"
+msgstr ""
+
+#: includes/views/admin.php:23
+msgid "Show available entry meta shortcodes"
+msgstr ""
+
+#: includes/views/admin.php:29 includes/views/admin.php:90
+msgid "Shortcode Reference"
+msgstr ""
+
+#: includes/views/admin.php:41
+#. Translators: The string is a URL to a usage guide.
+msgid ""
+"NOTE: For a more comprehensive shortcode usage guide, see the <a "
+"href=\"%s\" target=\"_blank\">post shortcode reference</a>."
+msgstr ""
+
+#: includes/views/admin.php:44
+msgid "Date the entry was published"
+msgstr ""
+
+#: includes/views/admin.php:45
+msgid "Date the entry was last modified"
+msgstr ""
+
+#: includes/views/admin.php:46
+msgid "Time the entry was published"
+msgstr ""
+
+#: includes/views/admin.php:47
+msgid "Time the entry was last modified"
+msgstr ""
+
+#: includes/views/admin.php:48
+msgid "Entry author display name"
+msgstr ""
+
+#: includes/views/admin.php:49
+msgid "Entry author display name, linked to their website"
+msgstr ""
+
+#: includes/views/admin.php:50
+msgid "Entry author display name, linked to their archive"
+msgstr ""
+
+#: includes/views/admin.php:51
+msgid "Entry comments link"
+msgstr ""
+
+#: includes/views/admin.php:52
+msgid "List of entry tags"
+msgstr ""
+
+#: includes/views/admin.php:53
+msgid "List of entry categories"
+msgstr ""
+
+#: includes/views/admin.php:54
+msgid "Entry edit link (visible to admins)"
+msgstr ""
+
+#: includes/views/admin.php:62
+msgid "Footer \"Back to Top\" Link"
+msgstr ""
+
+#: includes/views/admin.php:70
+msgid "Footer Credits Text"
+msgstr ""
+
+#: includes/views/admin.php:77
+msgid "Footer Output"
+msgstr ""
+
+#: includes/views/admin.php:79
+msgid "Modify Entire Footer Text (including markup)?"
+msgstr ""
+
+#: includes/views/admin.php:81
+msgid ""
+"NOTE: Checking this option will use the content of the box below, and "
+"override the options above."
+msgstr ""
+
+#: includes/views/admin.php:85
+msgid "Show available footer shortcodes"
+msgstr ""
+
+#: includes/views/admin.php:102
+#. Translators: The string is a URL to a usage guide.
+msgid ""
+"NOTE: For a more comprehensive shortcode usage guide, see the <a "
+"href=\"%s\" target=\"_blank\">footer shortcode reference</a>."
+msgstr ""
+
+#: includes/views/admin.php:106
+msgid "The \"Back to Top\" Link"
+msgstr ""
+
+#: includes/views/admin.php:108
+msgid "The Copyright notice"
+msgstr ""
+
+#: includes/views/admin.php:109
+msgid "The Child Theme Link"
+msgstr ""
+
+#: includes/views/admin.php:110
+msgid "The Genesis Link"
+msgstr ""
+
+#: includes/views/admin.php:111
+msgid "The StudioPress Link"
+msgstr ""
+
+#: includes/views/admin.php:112
+msgid "The WordPress Link"
+msgstr ""
+
+#: includes/views/admin.php:113
+msgid "Log In/Out Link"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Genesis Simple Edits"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://www.studiopress.com/plugins/genesis-simple-edits"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Genesis Simple Edits lets you edit the three most commonly modified areas "
+"in any Genesis theme: the post-info, the post-meta, and the footer area."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "StudioPress"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://www.studiopress.com/"
+msgstr ""

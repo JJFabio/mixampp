@@ -1,0 +1,198 @@
+/*
+	Theme Name: Seasons Pro
+	Theme URI: http://wpstud.io/themes
+	Description: A mobile responsive and HTML5 theme built for the Genesis Framework.
+	Author: WPStud.io || Frank Schrijvers
+	Author URI: https://www.wpstud.io
+
+	Version: 1.1
+
+	Template: genesis
+	Template Version: 2.3.1
+	Text Domain: seasons-pro
+
+	License: GPL-2.0+
+	License URI: http://www.opensource.org/licenses/gpl-license.php
+*/
+
+
+/* Table of Contents
+
+- HTML5 Reset
+		- Baseline Normalize
+		- Box Sizing
+		- Float Clearing
+	- Defaults
+		- Typographical Elements
+		- Headings
+		- Objects
+		- Gallery
+		- Forms
+		- Tables
+		- Screen Reader Text
+    - Printstyles
+	- Structure and Layout
+		- Site Containers
+		- Column Widths and Positions
+		- Column Classes
+	- Common Classes
+		- Avatar
+		- Genesis
+		- Search Form
+		- Titles
+		- WordPress
+	- Widgets
+		- Featured Content
+	- Plugins
+		- Genesis eNews Extended
+		- Jetpack
+		- Simple Share
+		- Lightslider
+		- Grid Toggle
+	- Site Header
+		- Title Area
+		- Widget Area
+	- Site Navigation
+		- Accessible Menu
+		- Site Header Navigation
+		- Primary Navigation
+		- Secondary Navigation
+		- Top Navigation
+		- Fixed Navigation
+		- Prev Next Post Navigation
+		- Responsive Navigation
+		- Skip Links
+	- Content Area
+		- Entries
+		- Entry Meta
+		- Pagination
+		- Comments
+	- Sidebars
+	- Footer
+		- Footer widgets
+	- WooCommerce
+		- Product rows
+		- Navigation
+		- Single product
+		- Product tabs
+		- Widgets
+		- Messages
+		- Checkout
+		- Cart
+		- Sales Badge
+		- Media queries
+	- Star Font
+	- Media Queries
+*/
+
+/* Fadeup Effect
+---------------------------------------------------------------------------------------------------- */
+
+/* Variables & Mixins */
+@import "variables";
+
+
+/*
+# HTML5 Reset and Clearfix
+---------------------------------------------------------------------------------------------------- */
+@import "html_reset/baseline_normalize";
+@import "html_reset/box_sizing";
+@import "html_reset/float_clearing";
+
+/* # Defaults
+---------------------------------------------------------------------------------------------------- */
+@import "defaults/typographical_elements";
+@import "defaults/headings";
+@import "defaults/objects";
+@import "defaults/gallery";
+@import "defaults/forms";
+@import "defaults/tables";
+@import "defaults/screenreader_text";
+@import "defaults/printstyles";
+
+/* # Structure and Layout
+---------------------------------------------------------------------------------------------------- */
+@import "structure/containers";
+@import "structure/columns";
+@import	"structure/columns_classes";
+
+/* # Common Classes
+---------------------------------------------------------------------------------------------------- */
+@import "common_classes/avatar";
+@import "common_classes/genesis";
+@import "common_classes/searchform";
+@import "common_classes/titles";
+@import "common_classes/wordpress";
+
+/* # Widgets
+---------------------------------------------------------------------------------------------------- */
+@import "widgets/widgets";
+@import "widgets/featured_content";
+
+/* # Plugins
+---------------------------------------------------------------------------------------------------- */
+@import "plugins/enews";
+@import "plugins/jetpack";
+@import "plugins/simple_share";
+@import "plugins/lightslider";
+@import "plugins/grid-toggle";
+@import "plugins/fadeup";
+
+/* # Site Header
+---------------------------------------------------------------------------------------------------- */
+@import "header/header";
+@import "header/title_area";
+@import "header/widget_area";
+
+/* # Site Navigation
+---------------------------------------------------------------------------------------------------- */
+@import "navigation/navigation";
+@import "navigation/accessible_menu";
+@import "navigation/header_navigation";
+@import "navigation/primary_navigation";
+@import "navigation/secondary_navigation";
+@import "navigation/top_navigation";
+@import "navigation/fixed_navigation";
+@import "navigation/prevnext";
+@import "navigation/responsive_navigation";
+@import "navigation/skip_links";
+
+/* # Content Area
+---------------------------------------------------------------------------------------------------- */
+@import "content_area/entries";
+@import "content_area/entry_meta";
+@import "content_area/pagination";
+@import "content_area/comments";
+
+/* # Sidebars
+---------------------------------------------------------------------------------------------------- */
+@import "sidebars/sidebars";
+
+/* # Footer
+---------------------------------------------------------------------------------------------------- */
+@import "footer/footer";
+@import "footer/footer_widgets";
+
+/*
+WooCommerce
+---------------------------------------------------------------------------------------------------- */
+@import "woo/product_rows";
+@import "woo/navigation";
+@import "woo/single-product";
+@import "woo/tabs";
+@import "woo/widgets";
+@import "woo/messages";
+@import "woo/checkout";
+@import "woo/cart";
+@import "woo/salesbadge";
+@import "woo/account";
+@import "woo/mediaqueries";
+
+/*
+Loads Star fonts
+---------------------------------------------------------------------------------------------------- */
+@import "fonts";
+
+/* # Media Queries
+---------------------------------------------------------------------------------------------------- */
+@import "mediaqueries/mediaqueries";

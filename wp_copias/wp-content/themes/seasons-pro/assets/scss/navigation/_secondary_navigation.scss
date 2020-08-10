@@ -1,0 +1,34 @@
+/* ## Secondary Navigation
+--------------------------------------------- */
+
+.nav-secondary {
+	background: #2C343A;
+	.genesis-nav-menu {
+		float: right;
+	}
+	.menu-item {
+		a {
+			color: #fff;
+			padding: 16px;
+		}
+	}
+	.menu-item:hover a {
+		color: #daddde;
+	}
+	.widget-area {
+		float: right;
+		.widget {
+			margin-bottom: 0;
+			li {
+				margin-bottom: 0 !important;
+				width: auto;
+			}
+			li a {
+				padding: 16px 8px;
+			}
+			li a:last-child {
+				padding: 16px 0 16px 8px;
+			}
+		}
+	}
+}

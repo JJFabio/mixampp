@@ -1,0 +1,62 @@
+/* ## Prev Next Post navigation
+--------------------------------------------- */
+.prev-next-navigation {
+	border-bottom: 1px solid #f0f0f0;
+	border-top: 1px solid #f0f0f0;
+    float: left;
+    width: 100%;
+    padding: 40px 0;
+	a {
+	    background-color: transparent;
+	    color: #000;
+	    cursor: pointer;
+	    display: table;
+	    float: right;
+	    font-size: 12px;
+	    font-size: 1.2rem;
+	    font-weight: 700;
+	    line-height: 1.625;
+	    //margin-top: 20px;
+	    padding: 8px 0;
+	    position: relative;
+	    text-align: center;
+	    text-transform: uppercase;
+	    white-space: normal;
+	    width: auto;
+	    -webkit-transition: all .3s;
+	    -moz-transition: all .3s;
+	    transition: all .3s;
+	}
+	a:first-child {
+		float: left;
+	}
+	a:before {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 2px;
+        content: "";
+        background-color: #42a781;
+        box-sizing: border-box;
+    }
+    a:after {
+        bottom: 0;
+        box-sizing: border-box;
+        content: "";
+        left: inherit;
+        right: 0;
+        width: 0;
+        transition: 0.3s;
+        background-color: #262e31;
+        position: absolute;
+        left: 0;
+    }
+    a:hover:after {
+        height: 2px;
+        position: absolute;
+        left: 0;
+        width: 100%;
+    }
+
+}

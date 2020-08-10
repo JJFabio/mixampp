@@ -1,0 +1,283 @@
+# Translation of Plugins - Seriously Simple Stats - Development (trunk) in Spanish (Spain)
+# This file is distributed under the same license as the Plugins - Seriously Simple Stats - Development (trunk) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2018-09-14 17:18:17+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: es\n"
+"Project-Id-Version: Plugins - Seriously Simple Stats - Development (trunk)\n"
+
+#. Author URI of the plugin/theme
+msgid "https://www.castos.com/"
+msgstr "https://www.castos.com/"
+
+#. Author of the plugin/theme
+msgid "Castos"
+msgstr "Castos"
+
+#: includes/class-ssp-stats.php:1533
+msgid "Updating the stats database table completed successfully."
+msgstr "Tabla de estadísticas de la base de datos actualizada correctamente."
+
+#: includes/class-ssp-stats.php:1525
+msgid "An error occurred updating the stats database table, please try again or contact support."
+msgstr "Se ha producido un error al actualizar la tabla de estadísticas de la base de datos. Vuelve a intentarlo o contacta con soporte."
+
+#: includes/class-ssp-stats.php:1490
+msgid "Upgrade stats table."
+msgstr "Actualizar tabla de estadísticas."
+
+#: includes/class-ssp-stats.php:1489
+msgid "Seriously Simple Stats needs to perform an update to the stats database table. Click below to perform this one-time update."
+msgstr "Seriously Simple Stats necesita actualizar la tabla de estadísticas. Haz clic abajo para realizar esta actualización."
+
+#: includes/class-ssp-stats.php:1434
+msgid "View All Data"
+msgstr "Ver todos los datos"
+
+#: includes/class-ssp-stats.php:1434
+msgid "Last 30 Days"
+msgstr "Últimos 30 días"
+
+#: includes/class-ssp-stats.php:1429
+msgid "No stats yet!"
+msgstr "¡Aún no hay estadísticas!"
+
+#: includes/class-ssp-stats.php:1399
+msgid "Seriously Simple Stats - Overview"
+msgstr "Seriously Simple Stats - Vista general"
+
+#: includes/class-ssp-stats.php:1033
+msgid "Week"
+msgstr "Semana"
+
+#: includes/class-ssp-stats.php:904
+msgid "Next page"
+msgstr "Página siguiente"
+
+#: includes/class-ssp-stats.php:896
+msgid "Previous page"
+msgstr "Página anterior"
+
+#: includes/class-ssp-stats.php:884
+msgid "items"
+msgstr "elementos"
+
+#: includes/class-ssp-stats.php:817
+msgid "Lifetime"
+msgstr "Siempre"
+
+#: includes/class-ssp-stats.php:813
+msgid "Episode Name"
+msgstr "Nombre del episodio"
+
+#: includes/class-ssp-stats.php:812
+msgid "Publish Date"
+msgstr "Fecha de publicación"
+
+#: includes/class-ssp-stats.php:751
+msgid "All Episodes for the Last Three Months"
+msgstr "Todos los episodios de los últimos tres meses"
+
+#: includes/class-ssp-stats.php:510 includes/class-ssp-stats.php:1123
+msgid "Player FM"
+msgstr "Player FM"
+
+#: includes/class-ssp-stats.php:507 includes/class-ssp-stats.php:1122
+msgid "Podcast Addict"
+msgstr "Podcast Addict"
+
+#. Description of the plugin/theme
+msgid "Integrated analytics and stats tracking for Seriously Simple Podcasting."
+msgstr "Análisis integrado y seguimiento de estadísticas para Seriously Simple Podcasting."
+
+#. Plugin URI of the plugin/theme
+msgid "https://wordpress.org/plugins/seriously-simple-stats"
+msgstr "https://wordpress.org/plugins/seriously-simple-stats"
+
+#. Plugin Name of the plugin/theme
+msgid "Seriously Simple Stats"
+msgstr "Seriously Simple Stats"
+
+#: includes/class-ssp-stats.php:517 includes/class-ssp-stats.php:1120
+msgid "Other"
+msgstr "Otro"
+
+#: includes/class-ssp-stats.php:1080
+msgid "Sources"
+msgstr "Fuentes"
+
+#: includes/class-ssp-stats.php:991 includes/class-ssp-stats.php:1034
+#: includes/class-ssp-stats.php:1081
+msgid "Listens"
+msgstr "Escuchas"
+
+#: includes/class-ssp-stats.php:990
+msgid "Date"
+msgstr "Fecha"
+
+#: includes/class-ssp-stats.php:930
+msgid "%d %slisten%s"
+msgid_plural "%d %slistens%s"
+msgstr[0] "%d %sescucha%s"
+msgstr[1] "%d %sescuchas%s"
+
+#: includes/class-ssp-stats.php:918
+msgid "Top Ten Episodes of All Time"
+msgstr "Los diez mejores episodios de todos los tiempos"
+
+#: includes/class-ssp-stats.php:740
+msgid "Listening Sources"
+msgstr "Fuentes de escucha"
+
+#: includes/class-ssp-stats.php:735
+msgid "Daily Listens"
+msgstr "Escucha diaria"
+
+#: includes/class-ssp-stats.php:728
+msgid "Stats for %s to %s %s"
+msgstr "Estadísticas de %s a %s %s"
+
+#: includes/class-ssp-stats.php:716
+msgid "End date"
+msgstr "Fecha Final"
+
+#: includes/class-ssp-stats.php:715
+msgid "Start date"
+msgstr "Fecha de Inicio"
+
+#: includes/class-ssp-stats.php:705
+msgid "Change from last week"
+msgstr "Cambio de la semana pasada"
+
+#: includes/class-ssp-stats.php:690 includes/class-ssp-stats.php:1463
+msgid "Listens last week"
+msgstr "Escuchas la pasada semana"
+
+#: includes/class-ssp-stats.php:685 includes/class-ssp-stats.php:1458
+msgid "Listens this week"
+msgstr "Escuchas esta semana"
+
+#: includes/class-ssp-stats.php:680 includes/class-ssp-stats.php:1453
+msgid "Listens today"
+msgstr "Escuchas hoy"
+
+#: includes/class-ssp-stats.php:668
+msgid "At a Glance"
+msgstr "De un vistazo"
+
+#: includes/class-ssp-stats.php:660 includes/class-ssp-stats.php:717
+msgid "Apply"
+msgstr "Aplicar"
+
+#: includes/class-ssp-stats.php:632
+msgid "An individual episode"
+msgstr "Un episodio individual"
+
+#: includes/class-ssp-stats.php:631
+msgid "An individual series"
+msgstr "Una serie individual"
+
+#: includes/class-ssp-stats.php:630
+msgid "All episodes"
+msgstr "Todos los episodios"
+
+#: includes/class-ssp-stats.php:628
+msgid "View stats for"
+msgstr "Ver estadísticas de"
+
+#: includes/class-ssp-stats.php:598
+msgid "No stats %s yet!"
+msgstr "No hay estadísticas %s todavía!"
+
+#: includes/class-ssp-stats.php:579
+msgid "Podcast Stats %s"
+msgstr "Estadísticas Podcast %s"
+
+#: includes/class-ssp-stats.php:573
+msgid "for this episode"
+msgstr "para este episodio"
+
+#: includes/class-ssp-stats.php:572
+msgid "for Episode: %s"
+msgstr "de Episodio: %s"
+
+#: includes/class-ssp-stats.php:564
+msgid "for this series"
+msgstr "para estas series"
+
+#: includes/class-ssp-stats.php:563
+msgid "for Series: %s"
+msgstr "para las series: %s"
+
+#: includes/class-ssp-stats.php:539
+msgid "Stats"
+msgstr "Estadísticas"
+
+#: includes/class-ssp-stats.php:539
+msgid "Podcast Stats"
+msgstr "Estadísticas Podcast"
+
+#: includes/class-ssp-stats.php:525
+msgid "No stats for this episode yet!"
+msgstr "No hay estadísticas para este episodio todavía!"
+
+#: includes/class-ssp-stats.php:521
+msgid "%1$sSee more detail %2$s%3$s"
+msgstr "%1$sMira más detalles %2$s%3$s"
+
+#: includes/class-ssp-stats.php:1140
+msgid "Unknown"
+msgstr "Desconocido"
+
+#: includes/class-ssp-stats.php:494 includes/class-ssp-stats.php:1113
+msgid "Direct download"
+msgstr "Descarga directa"
+
+#: includes/class-ssp-stats.php:497 includes/class-ssp-stats.php:1115
+msgid "Played in new window"
+msgstr "Reproducido en una nueva ventana"
+
+#: includes/class-ssp-stats.php:485 includes/class-ssp-stats.php:1117
+msgid "Stitcher"
+msgstr "Stitcher"
+
+#: includes/class-ssp-stats.php:482 includes/class-ssp-stats.php:1116
+msgid "iTunes"
+msgstr "iTunes"
+
+#: includes/class-ssp-stats.php:479
+msgid "Listening sources"
+msgstr "Fuentes de escucha"
+
+#: includes/class-ssp-stats.php:478
+msgid "Total listeners"
+msgstr "Total de escuchas"
+
+#: includes/class-ssp-stats.php:433
+msgid "Total listens"
+msgstr "Total listens"
+
+#: includes/class-ssp-stats.php:417
+msgid "Episode Stats"
+msgstr "Estadísticas de Episodio"
+
+#: includes/class-ssp-stats.php:491 includes/class-ssp-stats.php:1119
+msgid "Pocket Casts"
+msgstr "Pocket Casts"
+
+#: includes/class-ssp-stats.php:488 includes/class-ssp-stats.php:1118
+msgid "Overcast"
+msgstr "Overcast"
+
+#: includes/class-ssp-stats.php:500 includes/class-ssp-stats.php:1114
+msgid "Audio player"
+msgstr "Reproductor de audio"
+
+#: includes/class-ssp-stats.php:1358 includes/class-ssp-stats.php:1367
+msgid "Cheatin&#8217; huh?"
+msgstr "¿Haciendo trampas?"

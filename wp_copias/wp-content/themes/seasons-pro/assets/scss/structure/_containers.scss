@@ -1,0 +1,40 @@
+/* ## Site Containers
+--------------------------------------------- */
+
+.wrap {
+	margin: 0 auto;
+	max-width: 1140px;
+}
+
+
+.site-inner {
+	clear: both;
+	margin: 0 auto;
+	padding: 5% 0;
+	max-width: 1140px;
+}
+
+.home .site-inner {
+	padding: 0 0 5% 0;
+}
+
+.full-width-content .site-inner .wrap {
+	//padding: 7rem 0;
+}
+
+.page-template-home {
+	.site-inner {
+	padding: 0;
+		.wrap {
+			padding: 0;
+		}
+	}
+}
+
+.content-sidebar .site-inner .wrap, .sidebar-content .site-inner .wrap {
+	margin: 0 auto;
+}
+
+.post-type-archive-product .site-inner .wrap {
+	//padding: 7rem 0;
+}

@@ -1,0 +1,42 @@
+.sidebar {
+	font-size: 14px;
+	font-size: 1.4rem;
+	.entry {
+		padding: 0;
+	}
+	select {
+		border: 1px solid #f0f0f0;
+		padding: 10px;
+	}
+	.widget-title {
+		font-weight: 500;
+	}
+}
+
+.sidebar li {
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+}
+
+.sidebar .menu {
+	li {
+		border-bottom: 1px solid #eee;
+		li {
+			border-bottom: none;
+			font-size: 14px;
+		}
+	}
+}
+
+.sidebar p:last-child,
+.sidebar ul > li:last-child {
+	margin-bottom: 0;
+}
+
+.sidebar-content, .content-sidebar {
+	.sidebar {
+		.widget {
+			overflow: visible;
+		}
+	}
+}

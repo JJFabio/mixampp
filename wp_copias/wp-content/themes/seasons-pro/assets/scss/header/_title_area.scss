@@ -1,0 +1,47 @@
+/* ## Title Area
+--------------------------------------------- */
+
+.title-area {
+    float: left;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: normal;
+    font-size: 1em;
+    padding: 24px 0;
+    text-transform: uppercase;
+    width: 280px;
+    .site-title {
+        font-size: 20px;
+        font-size: 2rem;
+        letter-spacing: 1px;
+        line-height: 1;
+        margin-bottom: 0;
+        text-transform: uppercase;
+        a {
+            color: #333;
+            font-size: 24px;
+            font-size: 2.4rem;
+            font-weight: 700;
+            &:hover, &:focus {
+                color: #333;
+            }
+        }
+    }
+    .site-description {
+        height: 0;
+        margin: 0;
+        text-indent: -9999px;
+    }
+}
+
+
+.header-image .site-title > a {
+    float: left;
+    min-height: 72px;
+    width: 100%;
+}
+
+.header-image .site-description,
+.header-image .site-title {
+    display: block;
+    text-indent: -9999px;
+}

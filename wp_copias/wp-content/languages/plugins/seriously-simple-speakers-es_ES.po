@@ -1,0 +1,100 @@
+# Translation of Plugins - Seriously Simple Speakers - Development (trunk) in Spanish (Spain)
+# This file is distributed under the same license as the Plugins - Seriously Simple Speakers - Development (trunk) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2018-12-07 12:40:20+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/3.0.0-alpha\n"
+"Language: es\n"
+"Project-Id-Version: Plugins - Seriously Simple Speakers - Development (trunk)\n"
+
+#. Plugin URI of the plugin
+msgid "https://wordpress.org/plugins/seriously-simple-speakers"
+msgstr "https://wordpress.org/plugins/seriously-simple-speakers"
+
+#. Plugin Name of the plugin
+msgid "Seriously Simple Speakers"
+msgstr "Seriously Simple Speakers"
+
+#: includes/class-ssp-speakers.php:273 includes/class-ssp-speakers.php:282
+msgid "Cheatin&#8217; huh?"
+msgstr "Haciendo trampa ¿eh?"
+
+#: includes/class-ssp-speakers.php:176
+msgid "%s list"
+msgstr "Lista de %s"
+
+#: includes/class-ssp-speakers.php:175
+msgid "%s list navigation"
+msgstr "Navegación de lista de %s"
+
+#: includes/class-ssp-speakers.php:174
+msgid "No %s found"
+msgstr "No se encontraron %s"
+
+#: includes/class-ssp-speakers.php:173
+msgid "Choose from the most used %s"
+msgstr "Elige entre los %s más utilizados"
+
+#: includes/class-ssp-speakers.php:172
+msgid "Add or remove %s"
+msgstr "Añadir o eliminar %s"
+
+#: includes/class-ssp-speakers.php:171
+msgid "Separate %s with commas"
+msgstr "Separar %s con comas"
+
+#: includes/class-ssp-speakers.php:170
+msgid "Popular %s"
+msgstr "%s populares"
+
+#: includes/class-ssp-speakers.php:169
+msgid "Search %s"
+msgstr "Buscar %s"
+
+#: includes/class-ssp-speakers.php:168
+msgid "Parent %s:"
+msgstr "%s padre:"
+
+#: includes/class-ssp-speakers.php:167
+msgid "Parent %s"
+msgstr "%s padre"
+
+#: includes/class-ssp-speakers.php:166
+msgid "New %s Name"
+msgstr "Nombre de nuevo %s"
+
+#: includes/class-ssp-speakers.php:165
+msgid "Add New %s"
+msgstr "Añadir nuevo %s"
+
+#: includes/class-ssp-speakers.php:164
+msgid "Update %s"
+msgstr "Actualizar %s"
+
+#: includes/class-ssp-speakers.php:163
+msgid "View %s"
+msgstr "Ver %s"
+
+#: includes/class-ssp-speakers.php:162
+msgid "Edit %s"
+msgstr "Editar %s"
+
+#: includes/class-ssp-speakers.php:161
+msgid "All %s"
+msgstr "Todos los %s"
+
+#: includes/class-ssp-speakers.php:154
+msgid "Speakers"
+msgstr "Locutores"
+
+#: includes/class-ssp-speakers.php:153
+msgid "Speaker"
+msgstr "Locutor"
+
+#. Description of the plugin
+msgid "Add speakers to your Seriously Simple Podcasting episodes."
+msgstr "Añade locutores a tus episodios de Seriously Simple Podcasting."

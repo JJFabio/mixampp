@@ -1,0 +1,105 @@
+/* ## Column Widths and Positions
+--------------------------------------------- */
+
+/* ### Wrapping div for .content and .sidebar-primary */
+
+.content-sidebar-sidebar .content-sidebar-wrap,
+.sidebar-content-sidebar .content-sidebar-wrap,
+.sidebar-sidebar-content .content-sidebar-wrap {
+	width: 980px;
+}
+
+.content-sidebar-sidebar .content-sidebar-wrap {
+	float: left;
+}
+
+.sidebar-content-sidebar .content-sidebar-wrap,
+.sidebar-sidebar-content .content-sidebar-wrap {
+	float: right;
+}
+
+/* ### Content */
+
+.content, #content {
+	float: right;
+    width: 72.5%;
+}
+
+.content-sidebar .content,
+.content-sidebar-sidebar .content,
+.sidebar-content-sidebar .content {
+	float: left;
+}
+
+.content-sidebar-sidebar .content,
+.sidebar-content-sidebar .content,
+.sidebar-sidebar-content .content {
+	width: 580px;
+}
+
+.full-width-content .content {
+	width: 100%;
+}
+
+.full-width-content .content-sidebar-wrap {
+    margin: 0 auto;
+    max-width: 960px;
+}
+
+/* ### Primary Sidebar */
+
+.sidebar-primary {
+	float: right;
+	width: 25%;
+}
+
+.sidebar-content .sidebar-primary,
+.sidebar-sidebar-content .sidebar-primary {
+	float: left;
+}
+
+/* ### Secondary Sidebar */
+
+.sidebar-secondary {
+	float: left;
+	width: 180px;
+}
+
+.content-sidebar-sidebar .sidebar-secondary {
+	float: right;
+}
+
+.home .site-inner .wrap:before {
+    display: none;
+}
+
+.content-sidebar .site-inner .wrap:before {
+    right: 33.3333%;
+}
+
+.sidebar-content .site-inner .wrap:before {
+    left: 33.3333%;
+}
+
+
+/*GRID */
+/* Featured Post Grid
+------------------------------------------------------------ */
+
+.genesis-grid-even {
+  float: right;
+    padding: 0 0 15px;
+    width: 48%;
+}
+
+.genesis-grid-odd {
+    clear: both;
+    float: left;
+    padding: 0 0 15px ;
+    width: 48%;
+}
+
+.genesis-grid-even,
+.genesis-grid-odd {
+    margin: 0 0 20px;
+}

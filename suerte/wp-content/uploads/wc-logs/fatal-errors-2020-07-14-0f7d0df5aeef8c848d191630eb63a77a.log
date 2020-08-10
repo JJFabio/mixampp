@@ -1,0 +1,9 @@
+2020-07-14T13:54:46+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Error as array in C:\xampp\htdocs\suerte\wp-content\plugins\ninja-forms\ninja-forms.php:1275
+Stack trace:
+#0 C:\xampp\htdocs\suerte\wp-includes\class-wp-hook.php(288): nf_update_marketing_feed()
+#1 C:\xampp\htdocs\suerte\wp-includes\class-wp-hook.php(312): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\suerte\wp-includes\plugin.php(544): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\suerte\wp-cron.php(138): do_action_ref_array('nf_marketing_fe...', Array)
+#4 {main}
+  thrown en C:\xampp\htdocs\suerte\wp-content\plugins\ninja-forms\ninja-forms.php en la línea 1275
+

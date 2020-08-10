@@ -1,0 +1,109 @@
+/* ## Woo Tabs
+--------------------------------------------- */
+.single, .single-product {
+    .product-desc {
+        .wrap {
+            margin: 0 10%;
+        }
+    }
+    .woocommerce-tabs {
+        background: #fff;
+        border: 1px solid #ededed;
+        margin: 40px 0;
+        overflow: auto;
+        padding: 40px;
+        h2 {
+            text-transform: uppercase;
+            font-weight: 700;
+            font-size: 2rem;
+        }
+        ul.tabs {
+            display: block;
+            float: left;
+            border: 0;
+            margin: 0;
+            width: 100%;
+            li {
+                border: 0;
+                float: left;
+                list-style: none;
+                opacity: .7;
+                padding: 15px 0;
+                position: relative;
+                width: 25%;
+                text-align: center;
+                a {
+                    color: #535353;
+                    font-weight: 700;
+                    padding: 15px 0;
+                    text-decoration: none;
+                    text-transform: uppercase;
+                }
+            }
+            li.active {
+                border-bottom: 2px solid #000;
+                opacity: 1;
+            }
+
+        }
+        .panel {
+            border-top: 1px solid #ededed;
+            float: left;
+            padding: 40px 0;
+            width: 100%;
+            #comments {
+                padding: 0;
+                .commentlist {
+                    overflow: auto;
+                    margin-left: 0;
+                    li:first-child {
+                        border-top: none;
+                    }
+                    li {
+                        background: none;
+                        display: block;
+                        list-style: none;
+                        margin-left: 0;
+                        overflow: auto;
+                        padding: 40px 0;
+                    }
+                    .avatar {
+                        margin: 0 16px 0 0;
+                    }
+                    .comment-text {
+                        .comment-details {
+                            clear: both;
+                            float: left;
+                            margin-bottom: 1em;
+                            width: 20%;
+                            .star-rating {
+                                margin-bottom: 1em;
+                            }
+                            strong, time {
+                                clear: both;
+                                color: #656D78;
+                                float: left;
+                                font-size: .8em;
+                                margin-bottom: .8em;
+                            }
+                            time {
+                                opacity: .6;
+                            }
+                        }
+                        .meta, p {
+                            margin: 0;
+                        }
+                    }
+                }
+            }
+            #respond {
+                padding: 40px 0;
+                .comment-form-rating {
+                    display: block;
+                    margin-top: 10px;
+                    overflow: auto;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,212 @@
+/* ## Woo Media queries
+--------------------------------------------- */
+@media only screen and (max-width: 800px) {
+	.woocommerce, .full-width-content {
+		.related {
+			background: #f8f8f8;
+			padding: 120px 0 !important;
+			text-align: center;
+		}
+	}
+	.single-product .content .product .images {
+    	width: 100%;
+	}
+	.single-product #content .product .summary, .single-product .content .product .summary {
+	    width: 100%;
+	    padding: 1em 0;
+	}
+	.single-product #content .product .onsale, .single-product .content .product .onsale {
+	    top: 5px;
+	    right: 0;
+	}
+	.woocommerce .related ul.products {
+    	padding: 0 7.5%;
+	}
+	.demo_store {
+		font-size: 10px;
+		font-size: 1rem;
+		top: 140px;
+	}
+	.woocommerce {
+		.shop_table {
+			th.product-thumbnail, td.product-thumbnail {
+				display: none;
+			}
+			th.product-price, td.product-price {
+				display: none;
+			}
+			td.actions {
+				.button {
+					margin-bottom: 0.857em;
+					width :100%;
+				}
+				.coupon {
+					width: 100%;
+					input.input-text {
+						margin-bottom: 0.857em;
+						width :100%;
+					}
+				}
+			}
+		}
+		.cart_totals {
+			width: 100%;
+		}
+		.checkout_coupon, .login {
+			.form-row-first, .button {
+				width: 100%;
+			}
+			.form-row-last {
+				margin-left :0;
+				width :100%;
+			}
+		}
+	}
+	.widget_recent_reviews li,
+	.widget_recently_viewed_products li,
+	.widget_products li,
+	.widget_shopping_cart li,
+	.widget_top_rated_products li {
+		float: left;
+		width: 48%;
+		img {
+			width: 100%;
+		}
+		.reviewer {
+			clear: both;
+			float: left;
+		}
+	}
+	.widget_recent_reviews li:nth-child(odd),
+	.widget_recently_viewed_products li:nth-child(odd),
+	.widget_products li:nth-child(odd),
+	.widget_shopping_cart li:nth-child(odd),
+	.widget_top_rated_products li:nth-child(odd) {
+		margin-right: 4%;
+	}
+}
+
+@media only screen  and (min-width: 321px) and (max-width: 800px) {
+	.woocommerce, .full-width-content {
+		#genesis-content, .related {
+			ul.products {
+				li.product {
+					margin-right: 0;
+					width: 48%;
+				}
+				.last {
+					margin-right: 0;
+				}
+				li.product:nth-child(odd) {
+					float: left;
+				}
+				li.product:nth-child(even) {
+					clear: none;
+					float: right;
+				}
+			}
+		}
+	}
+	.home {
+		.widget {
+			margin-bottom: 0;
+		}
+		.columns-2, .columns-4, .columns-5, .columns-6,
+		.woocommerce .product_list_widget {
+			.products li, li {
+				margin: 0 2% 4% 2%;
+				width: 46%;
+				img {
+					width :100%;
+				}
+			}
+			li:nth-child(even)  {
+				margin-right: 0;
+			}
+		}
+
+	}
+}
+
+@media only screen and (max-width : 480px) {
+	.woocommerce, .full-width-content {
+		.content {
+			padding: 0;
+		}
+	}
+	.single-product .woocommerce-tabs ul.tabs {
+    	width: 100%;
+	}
+	.singe .woocommerce-tabs .panel,
+	.single-product .woocommerce-tabs .panel {
+	    border-left: none;
+	    padding: 10px;
+	    width: 100%;
+	}
+	.woocommerce, .full-width-content {
+		#genesis-content, .related {
+			ul.products {
+				li.product {
+					margin-right: 0;
+					width: 100%;
+				}
+			}
+		}
+	}
+	.single .woocommerce-tabs ul.tabs li,
+	.single-product .woocommerce-tabs ul.tabs li {
+		width: 100%;
+	}
+	.single .woocommerce-tabs ul.tabs li.active,
+	.single-product .woocommerce-tabs ul.tabs li.active {
+		border-bottom: 1px solid #EDEDED;
+	}
+	p.stars a {
+		margin-bottom: 4px;
+		width :100%;
+	}
+	.shop_table tr td, .shop_table tr th {
+		padding: 10px;
+	}
+	.cart_totals .wc-proceed-to-checkout {
+		width: 100%;
+		a {
+			margin-right: 0;
+			width: 100%;
+		}
+	}
+	.home {
+		.columns-2, .columns-4, .columns-5, .columns-6,
+		.woocommerce .product_list_widget {
+			.products li, li {
+				margin: 0 0 40px 0;
+				width: 100%;
+				img {
+					width :100%;
+				}
+				li:nth-child(even) {
+					float: left;
+				}
+			}
+		}
+	}
+	.woocommerce-MyAccount-navigation {
+	  ul {
+	  	border: 1px solid #e9e9e9;
+	    li {
+	    	border: none;
+	    	border-bottom: 1px solid #e9e9e9;
+	      	width: 100%;
+	    }
+	    li:last-child {
+	    	border-bottom: none;
+	    }
+	  }
+	}
+	.woocommerce-MyAccount-orders {
+		.order-status,
+		.order-actions {
+			display: none;
+		}
+	}
+}

@@ -1,0 +1,57 @@
+// SIZES
+
+// Neat settings
+$max-width: 100% !default;
+$border-box-sizing: true !default;
+$visual-grid: false;
+$visual-grid-color: red;
+$visual-grid-index: front;
+$visual-grid-opacity: 0.08;
+$grid-columns: 15 !default;
+
+// Omzetten naar deze structuur
+$color-body: #595959;
+$color-link: #000;
+$color-widget-link: #000;
+$color-link-hover: #000;
+$color-heading: #000;
+$color-menu: #000;
+$color-menu-hover: #000;
+
+//Link Colors
+$normal: #42a781;
+$hover: #000;
+$active: #2ac1e0;
+$visited: #2ac1e0;
+$focus: #fff;
+
+// Color Scheme
+$color-base: #ed4e6e !default;
+$color-base: #e74c3c;
+$color-primary: #5B8D96 !default;
+$color-secondary: #C45A3F !default;
+$color-cta: #3E6B85 !default;
+$color-extra: #3B3D42 !default;
+
+$dark: #000D11 !default;
+$light: #fff !default;
+
+// Scaffolding
+$textColor: #656a6c;
+
+//TYPOGRAPHY
+$baseFontFamily: "Open Sans", sans-serif;
+$serifFontFamily: Georgia, "Times New Roman", Times, serif !default;
+$monoFontFamily: Monaco, Menlo, Consolas, "Courier New", monospace !default;
+$baseFontWeight: 300;
+$baseLineHeight: 1.8;
+
+//THEMECOLROS
+$theme-color-blue: 	 #4281A4;
+$theme-color-grey: 	 #6b7681;
+$theme-color-red: 	 #F25F5C;
+$theme-color-orange: #ff6f00;
+$theme-color-pink:   #ecb1c3;
+
+//MISC
+$borderRadius: 2px;

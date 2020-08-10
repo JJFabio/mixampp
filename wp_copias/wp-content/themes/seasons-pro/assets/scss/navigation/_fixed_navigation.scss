@@ -1,0 +1,22 @@
+/* ## Fixed Navigation
+--------------------------------------------- */
+
+.navbar-fixed-top {
+	transition: all .5s ease-in-out;
+    border-bottom: 1px solid #eee;
+    top: 0;
+    z-index: 100;
+    position: fixed;
+    width: 100%;
+    left: 0;
+    right: 0;
+    padding: 0;
+}
+
+.fixed {
+	margin-top: 130px;
+}
+
+.hide {
+    opacity: 0;
+}

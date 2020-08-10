@@ -1,0 +1,5 @@
+#genesis-theme-settings-posts .inside tr:nth-child(1),
+#genesis-theme-settings-posts .inside tr:nth-child(2),
+#genesis-theme-settings-posts .inside tr:nth-child(3){
+    display: none !important;
+}

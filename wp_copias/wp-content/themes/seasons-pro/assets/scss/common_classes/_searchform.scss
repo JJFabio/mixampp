@@ -1,0 +1,64 @@
+/* ## Search Form
+--------------------------------------------- */
+
+.search-form {
+	overflow: hidden;
+	position: relative;
+	input[type="submit"] {
+		font: normal normal normal 14px/1 FontAwesome;
+	}
+}
+
+.site-header .search-form {
+	float: right;
+	margin-top: 12px;
+}
+
+.entry-content .search-form,
+.site-header .search-form {
+	width: 50%;
+}
+
+.genesis-nav-menu .search input[type="submit"],
+.widget_search input[type="submit"] {
+	font-family: FontAwesome;
+	background: none;
+	border: none;
+	color: #595959;
+	line-height: normal;
+	padding: 11px 18px;
+	font-size: 16px;
+	font-size: 1.6rem;
+	vertical-align: middle;
+
+}
+
+
+.widget_search input[type="submit"] {
+	background: transparent;
+	position: absolute;
+	right: 0;
+}
+
+.widget_search input[type="search"] {
+	font-size: 14px;
+}
+
+.search-form input[type="submit"]:hover {
+	background: none;
+	border: none;
+	color: #333;
+}
+
+.error404 .entry-content .search-form {
+	margin: 0 auto;
+	input[type=search] {
+		float: left;
+		width: 86%;
+	}
+	input[type="submit"] {
+		float: left;
+		height: 44px;
+		width: 14%;
+	}
+}

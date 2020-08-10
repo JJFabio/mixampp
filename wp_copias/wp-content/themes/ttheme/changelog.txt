@@ -1,0 +1,7 @@
+== Changelog ==
+
+= 1.0.1 - 2018-07-02 =
+* Fix - Style checkbox/radio in chrome/safari
+
+= 1.0.2 - 2018-07-10 =
+* Fix - Blog columns responsive

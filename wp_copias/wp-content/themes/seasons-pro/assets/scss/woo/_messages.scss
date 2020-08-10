@@ -1,0 +1,63 @@
+/* ## Woo Messages
+--------------------------------------------- */
+.woocommerce-message, .woocommerce-info {
+	background: #f8f8f8;
+	background: #fff;
+	border: 1px solid #eee;
+	clear: both;
+	color: #333;
+	font-size: 12px;
+	font-size: 1.2rem;
+	font-weight: 700;
+	margin-bottom: 20px;
+	overflow: auto;
+	padding: 16px;
+	text-transform: uppercase;
+	.showcoupon, .showlogin {
+		margin-left: 5px;
+	}
+	.wc-forward {
+		background: #fff;
+		border-left: 2px solid #eee;
+		color: #333;
+		float: right;
+		font-size: 12px;
+		font-size: 1.2rem;
+		font-weight: 700;
+		padding: 0 16px;
+	}
+	.wc-forward:hover {
+		color: $normal;
+	}
+	.wc-forward:after {
+	    content: "\f178";
+	    font-family: FontAwesome;
+	    margin-left: .53em;
+	    font-weight: 400;
+	}
+}
+
+/* Store Notice */
+.demo_store {
+	background: $normal;
+	color: #fff;
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+	font-size: 1.4rem;
+	font-weight: 400;
+	position: absolute;
+	text-transform: uppercase;
+	top: 72px;
+	width: 100%;
+	z-index:100;
+	padding: 10px;
+	text-align: center;
+}
+
+.logged-in .demo_store {
+	top: 102px;
+}
+
+.home .demo_store {
+	display: none;
+}

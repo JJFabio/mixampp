@@ -1,0 +1,109 @@
+# Translation of Plugins - Genesis login modal box - Development (trunk) in Spanish (Spain)
+# This file is distributed under the same license as the Plugins - Genesis login modal box - Development (trunk) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-02-22 11:34:41+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: es\n"
+"Project-Id-Version: Plugins - Genesis login modal box - Development (trunk)\n"
+
+#: inc/glmb-frontend.php:72
+msgid "Lost password?"
+msgstr "¿Olvidaste tu contraseña?"
+
+#. Author URI of the plugin
+msgid "https://www.wpstud.io"
+msgstr "https://www.wpstud.io"
+
+#. Author of the plugin
+msgid "Frank Schrijvers"
+msgstr "Frank Schrijvers"
+
+#. Plugin URI of the plugin
+msgid "https://wpstud.io/plugins"
+msgstr "https://wpstud.io/plugins"
+
+#. Plugin Name of the plugin
+msgid "Genesis login modal box"
+msgstr "Genesis login modal box"
+
+#: inc/glmb-frontend.php:126 inc/glmb-frontend.php:130
+msgid "Login"
+msgstr "Acceso"
+
+#: inc/glmb-frontend.php:122
+msgid "Log out"
+msgstr "Salir"
+
+#: inc/glmb-frontend.php:59
+msgid "Log In"
+msgstr "Acceder"
+
+#: inc/glmb-frontend.php:57
+msgid "Password"
+msgstr "Contraseña"
+
+#: inc/glmb-frontend.php:45
+msgid "Login failed: You have entered an incorrect Username or Password, please try again."
+msgstr "Acceso fallido. has introducido un nombre de usuario o contraseña incorrectos. Por favor, inténtalo de nuevo."
+
+#: inc/glmb-admin.php:102
+msgid "Header title"
+msgstr "Título de cabecera"
+
+#: inc/glmb-frontend.php:58
+msgid "Remember Me"
+msgstr "Recuérdame"
+
+#: inc/glmb-admin.php:107
+msgid "Add to navigation"
+msgstr "Añadir al menú"
+
+#: inc/glmb-frontend.php:56
+msgid "Username"
+msgstr "Nombre de usuario"
+
+#: inc/glmb-admin.php:98
+msgid "Page after logout"
+msgstr "Página a mostrar tras salir"
+
+#: inc/glmb-admin.php:93
+msgid "Page after login"
+msgstr "Página a mostrar tras acceder"
+
+#: inc/glmb-admin.php:84
+msgid "Contact"
+msgstr "Contacto"
+
+#: inc/glmb-admin.php:83
+msgid "Website"
+msgstr "Sitio Web"
+
+#: inc/glmb-admin.php:82
+msgid "Developed By"
+msgstr "Desarrollado por"
+
+#: inc/glmb-admin.php:76
+msgid "Plugin Settings"
+msgstr "Ajustes del plugin"
+
+#: inc/glmb-admin.php:75
+msgid "Information"
+msgstr "Información"
+
+#. Description of the plugin
+#: inc/glmb-admin.php:35
+msgid "Login modal box"
+msgstr "Login modal box"
+
+#: inc/glmb-admin.php:34
+msgid "Genesis login modal box - Settings"
+msgstr "Genesis login modal box - Ajustes"
+
+#: inc/glmb-admin.php:45
+msgid "Sign in to your account"
+msgstr "Iniciar sesión"

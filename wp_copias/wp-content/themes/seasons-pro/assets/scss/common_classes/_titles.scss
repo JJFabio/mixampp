@@ -1,0 +1,60 @@
+/* ## Titles
+--------------------------------------------- */
+
+.archive-title {
+	font-size: 20px;
+	font-size: 2rem;
+}
+
+.entry-title {
+	font-family: 'Work Sans', sans-serif;
+	font-size: 24px;
+	font-size: 2.4rem;
+	font-weight: 700;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	position: relative;
+}
+
+.single, .page {
+	.entry-title:before {
+		display: block;
+	    content: no-close-quote;
+	    background: #42a781;
+	    bottom: 0;
+	    content: no-close-quote;
+	    display: block;
+	    height: 20px;
+	    width: 6px;
+	    float: left;
+	    margin: 4px 8px 0 0;
+	}
+
+}
+
+.content-sidebar .entry-title, .sidebar-content .entry-title {
+	text-align: left;
+}
+
+.entry-title a,
+.sidebar .widget-title a {
+	color: #333;
+}
+
+.entry-title a:hover,
+.entry-title a:focus {
+	color: $normal;
+}
+
+.widget-title {
+    font-size: 16px;
+    font-size: 1.6rem;
+    font-weight: 700;
+    padding: 10px 10px 13px 0;
+    text-transform: uppercase;
+	text-align: left;
+}
+
+.footer-widgets .widget-title {
+	color: #fff;
+}

@@ -1,0 +1,41 @@
+/* ## Genesis
+--------------------------------------------- */
+
+.breadcrumb {
+	border-bottom: 1px solid #eee;
+	font-size: 13px;
+	font-size: 1.3rem;
+	font-weight: 500;
+	text-transform: uppercase;
+	padding-bottom: 20px;
+	a {
+		text-decoration: none;
+	}
+}
+
+.archive-description,
+.author-box {
+	font-size: 16px;
+	font-size: 1.6rem;
+	margin-bottom: 40px;
+	padding: 40px 0;
+	text-align: left;
+}
+
+.archive .author-box,
+.archive .archive-description {
+	border-bottom: 1px solid #eee;
+}
+
+.author-box-title {
+	font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-size: 1.8rem;
+    font-weight: 700;
+	margin: 0 10px;
+}
+
+.archive-description p:last-child,
+.author-box p:last-child {
+	margin-bottom: 0;
+}

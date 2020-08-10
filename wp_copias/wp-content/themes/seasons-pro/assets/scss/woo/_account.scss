@@ -1,0 +1,20 @@
+/* ## Woo Account page
+--------------------------------------------- */
+.woocommerce-account {
+	fieldset {
+		margin-bottom: 20px;
+	}
+	address {
+		margin-bottom: 20px;
+	}
+	.woocommerce-message, .woocommerce-info {
+		line-height: 44px;
+		.button {
+			line-height: 1;
+			margin-right: 20px;
+		}
+	}
+	.shop_table td.order-actions .button {
+		color: #42a781;
+	}
+}

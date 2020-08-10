@@ -1,0 +1,177 @@
+# Translation of Plugins - Genesis Simple FAQ - Stable (latest release) in Spanish (Spain)
+# This file is distributed under the same license as the Plugins - Genesis Simple FAQ - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2019-10-10 23:14:36+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: es\n"
+"Project-Id-Version: Plugins - Genesis Simple FAQ - Stable (latest release)\n"
+
+#: includes/class-genesis-simple-faq-widget.php:170
+msgid "FAQ Limit"
+msgstr "Límite de FAQ"
+
+#. Author URI of the plugin
+msgid "https://www.studiopress.com/"
+msgstr "https://www.studiopress.com/"
+
+#. Author of the plugin
+msgid "StudioPress"
+msgstr "StudioPress"
+
+#. Description of the plugin
+msgid "A plugin for the Genesis Framework to manage FAQ components via shortcodes."
+msgstr "Un plugin para Genesis Framework para gestionar los componentes de FAQs mediante shortcodes."
+
+#. Plugin URI of the plugin
+msgid "https://github.com/studiopress/genesis-simple-faq"
+msgstr "https://github.com/studiopress/genesis-simple-faq"
+
+#: includes/class-genesis-simple-faq-widget.php:175
+msgid "Choose a category."
+msgstr "Elige una categoría."
+
+#: includes/class-genesis-simple-faq-widget.php:165
+msgid "Title"
+msgstr "Título"
+
+#: includes/class-genesis-simple-faq-widget.php:117
+msgid "No FAQs were found."
+msgstr "No se han encontrado FAQs."
+
+#: includes/class-genesis-simple-faq-widget.php:42
+msgid "Displays Genesis Simple FAQs."
+msgstr "Muestra Genesis Simple FAQs."
+
+#: includes/class-genesis-simple-faq-taxonomy.php:31
+msgid "Categories"
+msgstr "Categorías"
+
+#: includes/class-genesis-simple-faq-taxonomy.php:64
+#: includes/class-genesis-simple-faq-cpt.php:141
+msgid "Shortcode"
+msgstr "Shortcode"
+
+#: includes/class-genesis-simple-faq-cpt.php:112
+msgid "FAQ draft updated."
+msgstr "El borrador de FAQ se ha actualizado."
+
+#: includes/class-genesis-simple-faq-cpt.php:110
+msgid "M j, Y @ G:i"
+msgstr "M j, Y @ G:i"
+
+#. translators: Date publish to publish the FAQ
+#: includes/class-genesis-simple-faq-cpt.php:109
+msgid "FAQ scheduled for: <strong>%1$s</strong>."
+msgstr "FAQ programada para: <strong>%1$s</strong>."
+
+#: includes/class-genesis-simple-faq-cpt.php:106
+msgid "FAQ submitted."
+msgstr "FAQ enviada."
+
+#: includes/class-genesis-simple-faq-cpt.php:105
+msgid "FAQ saved."
+msgstr "FAQ guardada."
+
+#: includes/class-genesis-simple-faq-cpt.php:104
+msgid "FAQ published."
+msgstr "FAQ publicada."
+
+#. translators: Revision version.
+#: includes/class-genesis-simple-faq-cpt.php:96
+msgid "FAQ restored to revision from %s"
+msgstr "FAQ restaurada para revisión de %s"
+
+#: includes/class-genesis-simple-faq-cpt.php:101
+msgid "Custom field deleted."
+msgstr "Campo personalizado eliminado."
+
+#: includes/class-genesis-simple-faq-cpt.php:100
+msgid "Custom field updated."
+msgstr "Campo personalizado actualizado."
+
+#: includes/class-genesis-simple-faq-cpt.php:99
+#: includes/class-genesis-simple-faq-cpt.php:102
+msgid "FAQ updated."
+msgstr "FAQ actualizada."
+
+#: includes/class-genesis-simple-faq-cpt.php:62
+msgid "Uploaded to this FAQ"
+msgstr "Subido a esta FAQ"
+
+#: includes/class-genesis-simple-faq-cpt.php:61
+msgid "Insert into FAQ"
+msgstr "Insertar en FAQ"
+
+#: includes/class-genesis-simple-faq-cpt.php:60
+msgid "All FAQs"
+msgstr "Todas las FAQs"
+
+#: includes/class-genesis-simple-faq-cpt.php:59
+msgid "No FAQs found in Trash"
+msgstr "No se han encontrado FAQs en la Papelera"
+
+#: includes/class-genesis-simple-faq-cpt.php:58
+msgid "No FAQs found"
+msgstr "No se han encontrado FAQs"
+
+#: includes/class-genesis-simple-faq-cpt.php:57
+msgid "Search FAQs"
+msgstr "Buscar FAQs"
+
+#: includes/class-genesis-simple-faq-cpt.php:56
+msgid "View FAQs"
+msgstr "Ver FAQs"
+
+#: includes/class-genesis-simple-faq-cpt.php:55
+msgid "View FAQ"
+msgstr "Ver FAQ"
+
+#: includes/class-genesis-simple-faq-cpt.php:54
+msgid "New FAQ"
+msgstr "Nueva FAQ"
+
+#: includes/class-genesis-simple-faq-cpt.php:53
+msgid "Edit FAQ"
+msgstr "Editar FAQ"
+
+#: includes/class-genesis-simple-faq-cpt.php:52
+msgid "Add New FAQ"
+msgstr "Añadir Nueva FAQ"
+
+#: includes/class-genesis-simple-faq-cpt.php:51
+msgctxt "genesis-simple-faq"
+msgid "Add New"
+msgstr "Agrega nueva"
+
+#: includes/class-genesis-simple-faq-cpt.php:50
+msgid "Simple FAQs"
+msgstr "Simple FAQs"
+
+#. Plugin Name of the plugin
+#: includes/class-genesis-simple-faq-widget.php:51
+#: includes/class-genesis-simple-faq-cpt.php:49
+msgid "Genesis Simple FAQ"
+msgstr "Genesis Simple FAQ"
+
+#: includes/class-genesis-simple-faq-cpt.php:48
+msgid "Genesis Simple FAQs"
+msgstr "Genesis Simple FAQs"
+
+#. translators: 1 is the Plugin name, 2 is the minimum WordPress version, 4 is
+#. the Genesis download link and 4 is action, upgrade or install.
+#: includes/class-genesis-simple-faq.php:134
+msgid "%1$s requires WordPress %2$s and <a href=\"%3$s\" target=\"_blank\">Genesis %4$s</a>, or greater. Please %5$s the latest version of Genesis to use this plugin."
+msgstr "%1$s requiere WordPress %2$s y <a href=\"%3$s\" target=\"_blank\">Genesis %4$s</a>, o mayor. Por favor, %5$s a la última versión de Genesis para usar este plugin."
+
+#: includes/class-genesis-simple-faq.php:131
+msgid "install and activate"
+msgstr "instalar y activar"
+
+#: includes/class-genesis-simple-faq.php:131
+msgid "upgrade to"
+msgstr "actualizar a"

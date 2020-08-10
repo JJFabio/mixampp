@@ -1,0 +1,86 @@
+/* ## Entry Meta
+--------------------------------------------- */
+
+p.entry-meta {
+	font-size: 16px;
+	font-size: 1.6rem;
+	margin-bottom: 0;
+}
+
+.sidebar-content .entry-header .entry-meta, .content-sidebar .entry-header .entry-meta {
+    text-align: left;
+}
+
+.sidebar-content .entry-footer .entry-meta, .content-sidebar .entry-footer .entry-meta {
+	text-align: left;
+}
+
+.entry-header .entry-meta {
+    border-bottom: 1px solid #f0f0f0;
+    color: #727272;
+    font-size: 12px;
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    padding: 10px 0 18px 0;
+    text-transform: uppercase;
+    .entry-categories,
+    .entry-author-link,
+    .entry-comments-link,
+    .post-edit-link,
+    .entry-tags,
+    .entry-time {
+        color: #727272;
+        display: inline-block;
+        padding-right: 15px;
+        position: relative;
+    }
+    .entry-categories a, .entry-author-link, .entry-comments-link a, .post-edit-link, .entry-tags a {
+    	color: #727272;
+    }
+    .entry-categories a:hover, .entry-author-link:hover, .entry-comments-link a:hover, .post-edit-link:hover, .entry-tags a:hover {
+        color: #727272;
+    }
+    .entry-categories:before,
+    .entry-author-link:before,
+    .entry-comments-link a:before,
+    .entry-tags:before,
+    .post-edit-link:before,
+    .entry-time:before {
+        color: #42a781;
+        display: block;
+        font: normal normal normal 14px FontAwesome;
+        speak: none;
+        float: left;
+        font-style: normal;
+        font-weight: normal;
+        font-variant: normal;
+        line-height: 1;
+        margin: 2px 10px 2px 0;
+        text-transform: none;
+        -webkit-font-smoothing: antialiased;
+     }
+
+    .entry-time:before {
+        content: "\f017";
+    }
+   .entry-categories:before {
+        content: "\f114";
+    }
+    .entry-author-link:before {
+        content: "\f007";
+    }
+    .entry-comments-link a:before {
+        content: "\f0e5";
+    }
+    .entry-tags:before {
+        content: "\f02c";
+    }
+    .post-edit-link:before {
+        content: "\f044";
+    }
+}
+
+.entry-categories,
+.entry-tags {
+	display: block;
+}

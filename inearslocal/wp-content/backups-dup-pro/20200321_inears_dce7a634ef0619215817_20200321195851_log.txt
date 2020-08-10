@@ -1,0 +1,277 @@
+********************************************************************************
+DUPLICATOR PRO PACKAGE-LOG: 2020-03-21 20:00:06
+NOTICE: Do NOT post to public sites or forums 
+********************************************************************************
+VERSION:	3.8.3.3
+WORDPRESS:	5.3.2
+PHP INFO:	7.3.10 | SAPI: apache2handler
+SERVER:		Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.10 
+ARCHITECTURE:	64-bit 
+CLIENT KICKOFF: off 
+PHP TIME LIMIT: [7200] not allowed 
+PHP MAX MEMORY: 4294967296 (512M default) 
+RUN TYPE: Manual
+MEMORY STACK: 6MB 
+
+********************************************************************************
+DATABASE:
+********************************************************************************
+BUILD MODE:   PHP + CHUNKING (chunk size - 500 rows)
+ 
+TABLES: total:112 | filtered:0 | create:112 
+FILTERED: [] 
+SCHEMA SIZE: [32816272] 
+SQL CREATED: 20200321_inears_dce7a634ef0619215817_20200321195851_database.sql 
+SQL FILE SIZE: 19.7MB 
+SQL FILE TIME: 2020-03-21 20:00:56 
+SQL RUNTIME: 50.040 sec. 
+MEMORY STACK: 12MB 
+
+******************************************************************************** 
+ARCHIVE Mode:ZipArchive Multi-Threaded 
+******************************************************************************** 
+ARCHIVE DIR:  C:/xampp/htdocs/inearslocal 
+ARCHIVE FILE: 20200321_inears_dce7a634ef0619215817_20200321195851_archive.zip 
+COMPRESSION: *ON* 
+FILTERS: *OFF* 
+DIRS:  not set 
+EXTS:  not set 
+FILES:  not set 
+---------------------------------------- 
+COMPRESSING 
+SIZE:	250.41MB 
+STATS:	Dirs 1,662 | Files 11,964 | Total 13,626 
+SQL ADDED: 20200321_inears_dce7a634ef0619215817_20200321195851_database.sql 
+ZipArchive Object
+(
+    [status] => 0
+    [statusSys] => 0
+    [numFiles] => 1997
+    [filename] => C:\xampp\htdocs\inearslocal\wp-content\backups-dup-pro\tmp\20200321_inears_dce7a634ef0619215817_20200321195851_archive.zip
+    [comment] => 
+)
+ 
+ZipArchive Object
+(
+    [status] => 0
+    [statusSys] => 0
+    [numFiles] => 2914
+    [filename] => C:\xampp\htdocs\inearslocal\wp-content\backups-dup-pro\tmp\20200321_inears_dce7a634ef0619215817_20200321195851_archive.zip
+    [comment] => 
+)
+ 
+ZipArchive Object
+(
+    [status] => 0
+    [statusSys] => 0
+    [numFiles] => 3242
+    [filename] => C:\xampp\htdocs\inearslocal\wp-content\backups-dup-pro\tmp\20200321_inears_dce7a634ef0619215817_20200321195851_archive.zip
+    [comment] => 
+)
+ 
+ZipArchive Object
+(
+    [status] => 0
+    [statusSys] => 0
+    [numFiles] => 3495
+    [filename] => C:\xampp\htdocs\inearslocal\wp-content\backups-dup-pro\tmp\20200321_inears_dce7a634ef0619215817_20200321195851_archive.zip
+    [comment] => 
+)
+ 
+ZipArchive Object
+(
+    [status] => 0
+    [statusSys] => 0
+    [numFiles] => 3746
+    [filename] => C:\xampp\htdocs\inearslocal\wp-content\backups-dup-pro\tmp\20200321_inears_dce7a634ef0619215817_20200321195851_archive.zip
+    [comment] => 
+)
+ 
+ZipArchive Object
+(
+    [status] => 0
+    [statusSys] => 0
+    [numFiles] => 4104
+    [filename] => C:\xampp\htdocs\inearslocal\wp-content\backups-dup-pro\tmp\20200321_inears_dce7a634ef0619215817_20200321195851_archive.zip
+    [comment] => 
+)
+ 
+ZipArchive Object
+(
+    [status] => 0
+    [statusSys] => 0
+    [numFiles] => 4483
+    [filename] => C:\xampp\htdocs\inearslocal\wp-content\backups-dup-pro\tmp\20200321_inears_dce7a634ef0619215817_20200321195851_archive.zip
+    [comment] => 
+)
+ 
+ZipArchive Object
+(
+    [status] => 0
+    [statusSys] => 0
+    [numFiles] => 5103
+    [filename] => C:\xampp\htdocs\inearslocal\wp-content\backups-dup-pro\tmp\20200321_inears_dce7a634ef0619215817_20200321195851_archive.zip
+    [comment] => 
+)
+ 
+ZipArchive Object
+(
+    [status] => 0
+    [statusSys] => 0
+    [numFiles] => 5784
+    [filename] => C:\xampp\htdocs\inearslocal\wp-content\backups-dup-pro\tmp\20200321_inears_dce7a634ef0619215817_20200321195851_archive.zip
+    [comment] => 
+)
+ 
+ZipArchive Object
+(
+    [status] => 0
+    [statusSys] => 0
+    [numFiles] => 6419
+    [filename] => C:\xampp\htdocs\inearslocal\wp-content\backups-dup-pro\tmp\20200321_inears_dce7a634ef0619215817_20200321195851_archive.zip
+    [comment] => 
+)
+ 
+ZipArchive Object
+(
+    [status] => 0
+    [statusSys] => 0
+    [numFiles] => 7145
+    [filename] => C:\xampp\htdocs\inearslocal\wp-content\backups-dup-pro\tmp\20200321_inears_dce7a634ef0619215817_20200321195851_archive.zip
+    [comment] => 
+)
+ 
+ZipArchive Object
+(
+    [status] => 0
+    [statusSys] => 0
+    [numFiles] => 7558
+    [filename] => C:\xampp\htdocs\inearslocal\wp-content\backups-dup-pro\tmp\20200321_inears_dce7a634ef0619215817_20200321195851_archive.zip
+    [comment] => 
+)
+ 
+ZipArchive Object
+(
+    [status] => 0
+    [statusSys] => 0
+    [numFiles] => 8066
+    [filename] => C:\xampp\htdocs\inearslocal\wp-content\backups-dup-pro\tmp\20200321_inears_dce7a634ef0619215817_20200321195851_archive.zip
+    [comment] => 
+)
+ 
+ZipArchive Object
+(
+    [status] => 0
+    [statusSys] => 0
+    [numFiles] => 8344
+    [filename] => C:\xampp\htdocs\inearslocal\wp-content\backups-dup-pro\tmp\20200321_inears_dce7a634ef0619215817_20200321195851_archive.zip
+    [comment] => 
+)
+ 
+ZipArchive Object
+(
+    [status] => 0
+    [statusSys] => 0
+    [numFiles] => 8908
+    [filename] => C:\xampp\htdocs\inearslocal\wp-content\backups-dup-pro\tmp\20200321_inears_dce7a634ef0619215817_20200321195851_archive.zip
+    [comment] => 
+)
+ 
+ZipArchive Object
+(
+    [status] => 0
+    [statusSys] => 0
+    [numFiles] => 9471
+    [filename] => C:\xampp\htdocs\inearslocal\wp-content\backups-dup-pro\tmp\20200321_inears_dce7a634ef0619215817_20200321195851_archive.zip
+    [comment] => 
+)
+ 
+ZipArchive Object
+(
+    [status] => 0
+    [statusSys] => 0
+    [numFiles] => 9879
+    [filename] => C:\xampp\htdocs\inearslocal\wp-content\backups-dup-pro\tmp\20200321_inears_dce7a634ef0619215817_20200321195851_archive.zip
+    [comment] => 
+)
+ 
+ZipArchive Object
+(
+    [status] => 0
+    [statusSys] => 0
+    [numFiles] => 10561
+    [filename] => C:\xampp\htdocs\inearslocal\wp-content\backups-dup-pro\tmp\20200321_inears_dce7a634ef0619215817_20200321195851_archive.zip
+    [comment] => 
+)
+ 
+ZipArchive Object
+(
+    [status] => 0
+    [statusSys] => 0
+    [numFiles] => 10889
+    [filename] => C:\xampp\htdocs\inearslocal\wp-content\backups-dup-pro\tmp\20200321_inears_dce7a634ef0619215817_20200321195851_archive.zip
+    [comment] => 
+)
+ 
+ZipArchive Object
+(
+    [status] => 0
+    [statusSys] => 0
+    [numFiles] => 12778
+    [filename] => C:\xampp\htdocs\inearslocal\wp-content\backups-dup-pro\tmp\20200321_inears_dce7a634ef0619215817_20200321195851_archive.zip
+    [comment] => 
+)
+ 
+ZipArchive Object
+(
+    [status] => 0
+    [statusSys] => 0
+    [numFiles] => 12983
+    [filename] => C:\xampp\htdocs\inearslocal\wp-content\backups-dup-pro\tmp\20200321_inears_dce7a634ef0619215817_20200321195851_archive.zip
+    [comment] => 
+)
+ 
+ZipArchive Object
+(
+    [status] => 0
+    [statusSys] => 0
+    [numFiles] => 13372
+    [filename] => C:\xampp\htdocs\inearslocal\wp-content\backups-dup-pro\tmp\20200321_inears_dce7a634ef0619215817_20200321195851_archive.zip
+    [comment] => 
+)
+ 
+ZipArchive Object
+(
+    [status] => 0
+    [statusSys] => 0
+    [numFiles] => 13626
+    [filename] => C:\xampp\htdocs\inearslocal\wp-content\backups-dup-pro\tmp\20200321_inears_dce7a634ef0619215817_20200321195851_archive.zip
+    [comment] => 
+)
+ 
+COMPRESSED SIZE: 117.66MB 
+ARCHIVE RUNTIME: 17.742 sec. 
+MEMORY STACK: 12MB 
+Installer files added to archive 
+
+******************************************************************************** 
+STORAGE: 
+******************************************************************************** 
+LOCAL: Pen, H://local 
+
+******************************************************************************** 
+INTEGRITY CHECKS: 
+******************************************************************************** 
+SQL FILE: 19.7MB 
+INSTALLER FILE: 211.67KB 
+ARCHIVE FILE: 119.05MB  
+EXPECTED FILE/DIRECTORY COUNT: 13,626 
+ACTUAL FILE/DIRECTORY COUNT: 13,626 
+ARCHIVE CONSISTENCY TEST: Pass 
+
+********************************************************************************
+RECORD ID:[265]
+TOTAL PROCESS RUNTIME: 731.064 sec.
+PEAK PHP MEMORY USED: 8MB
+DONE PROCESSING => 20200321_inears 2020-03-21 20:12:16
+ 

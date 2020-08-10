@@ -1,0 +1,198 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Seasons Pro Theme\n"
+"POT-Creation-Date: 2016-08-05 14:07+0200\n"
+"PO-Revision-Date: 2016-01-11 12:37-0500\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.8\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:24
+msgid "OOPS! - Could not Find it"
+msgstr ""
+
+#: 404.php:28
+#, php-format
+msgid ""
+"The page you are looking for no longer exists. Perhaps you can return back "
+"to the site's <a href=\"%s\">homepage</a> and see if you can find what you "
+"are looking for. Or, you can try finding it by using the search form above."
+msgstr ""
+
+#: lib/customize.php:20
+msgid "Homepage Setup"
+msgstr ""
+
+#: lib/customize.php:26
+msgid "Webshop Setup"
+msgstr ""
+
+#: lib/customize.php:27
+msgid "For best result use an image with a minimal width of 1140 pixels."
+msgstr ""
+
+#: lib/customize.php:49 lib/customize.php:162 lib/customize.php:273
+msgid "Title"
+msgstr ""
+
+#: lib/customize.php:64 lib/customize.php:175 lib/customize.php:286
+msgid "Main text"
+msgstr ""
+
+#: lib/customize.php:80 lib/customize.php:191 lib/customize.php:302
+#: lib/customize.php:418 lib/customize.php:477 lib/customize.php:536
+#: lib/customize.php:650
+msgid "Text color"
+msgstr ""
+
+#: lib/customize.php:95 lib/customize.php:206 lib/customize.php:317
+msgid "Show button"
+msgstr ""
+
+#: lib/customize.php:99 lib/customize.php:210 lib/customize.php:321
+#: lib/customize.php:390 lib/customize.php:601
+msgid "Yes"
+msgstr ""
+
+#: lib/customize.php:99 lib/customize.php:210 lib/customize.php:321
+#: lib/customize.php:390 lib/customize.php:601
+msgid "No"
+msgstr ""
+
+#: lib/customize.php:104 lib/customize.php:215 lib/customize.php:326
+msgid "Push me"
+msgstr ""
+
+#: lib/customize.php:111 lib/customize.php:222 lib/customize.php:333
+msgid "Button text"
+msgstr ""
+
+#: lib/customize.php:126 lib/customize.php:237 lib/customize.php:348
+msgid "Button link"
+msgstr ""
+
+#: lib/customize.php:140 lib/customize.php:251 lib/customize.php:362
+#: lib/customize.php:605 lib/customize.php:620
+msgid "Background image"
+msgstr ""
+
+#: lib/customize.php:386
+msgid "Show cta sections"
+msgstr ""
+
+#: lib/customize.php:402
+msgid "Text Box 1"
+msgstr ""
+
+#: lib/customize.php:433 lib/customize.php:492 lib/customize.php:551
+msgid "Background color"
+msgstr ""
+
+#: lib/customize.php:447 lib/customize.php:506 lib/customize.php:565
+msgid "Link"
+msgstr ""
+
+#: lib/customize.php:462
+msgid "Text Box 2"
+msgstr ""
+
+#: lib/customize.php:521
+msgid "Text Box 3"
+msgstr ""
+
+#: lib/customize.php:597
+msgid "Background Fixed"
+msgstr ""
+
+#: lib/customize.php:634
+msgid "Subtitle"
+msgstr ""
+
+#: lib/genesis.php:147
+msgid "about "
+msgstr ""
+
+#: lib/genesis.php:148
+msgid "Continue Reading"
+msgstr ""
+
+#: lib/structure/header.php:41 lib/structure/header.php:42
+msgid "Menu"
+msgstr ""
+
+#: lib/structure/widgets.php:15
+msgid "Home Products"
+msgstr ""
+
+#: lib/structure/widgets.php:16
+msgid "Add Woocommerce Product widget."
+msgstr ""
+
+#: lib/structure/widgets.php:24
+msgid "Home Testimonials"
+msgstr ""
+
+#: lib/structure/widgets.php:25
+msgid "Add testimonials widget."
+msgstr ""
+
+#: lib/structure/widgets.php:33
+msgid "Home Latest Posts"
+msgstr ""
+
+#: lib/structure/widgets.php:34
+msgid "Add genesis feaured posts."
+msgstr ""
+
+#: lib/structure/widgets.php:42
+msgid "Webshop Sidebar"
+msgstr ""
+
+#: lib/structure/widgets.php:43
+msgid "This is the WooCommerce webshop sidebar"
+msgstr ""
+
+#: lib/structure/widgets.php:49
+msgid "Webshop Footer"
+msgstr ""
+
+#: lib/structure/widgets.php:50 lib/structure/widgets.php:57
+#: lib/structure/widgets.php:64
+msgid "This is the Webshop footer widget"
+msgstr ""
+
+#: lib/structure/widgets.php:56
+msgid "Home Above Footer"
+msgstr ""
+
+#: lib/structure/widgets.php:63
+msgid "Home CTA"
+msgstr ""
+
+#: lib/woo/woo-set.php:71
+msgid "WooCommerce Primary Sidebar"
+msgstr ""
+
+#: lib/woo/woo-set.php:93
+msgid "Sale!"
+msgstr ""
+
+#: lib/woo/woo-set.php:93
+msgid "<span>Sale!</span>"
+msgstr ""
+
+#: lib/woo/woo-set.php:238 lib/woo/woo-set.php:248
+msgid "Sold out"
+msgstr ""

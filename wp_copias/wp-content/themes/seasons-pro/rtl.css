@@ -1,0 +1,713 @@
+/* Table of Contents
+
+- Defaults
+- Tables
+- Searchform
+- Titles
+- Widgets
+- Genesis Simple Share
+- Grid Toggle
+- Site Header
+- Title Area
+- Site Navigation
+- Secondary Navigation
+- Top Navigation
+- Prev Next Post navigation
+- Navigation toggles
+- Entries
+- Entry Meta
+- Comments
+- Footer widgets
+- Woo Navigation
+- Woo Single product
+- Woo Tabs
+- Woo Widgets
+- Price Filter Widget
+- Mini Cart Widget
+- WooCommerce Product Lists
+- WooCommerce Product Search
+- Woo Messages
+- Woo Checkout
+- Woo Cart
+- Mini Cart
+- Sales Badge
+*/
+
+/* Defaults
+--------------------------------------------- */
+
+.entry-content ol, .entry-content ul {
+    margin-right: 0 !important;
+    margin-left: 40px;
+}
+
+.sidebar {
+    border-left: 0;
+    border-right: 1px solid #ededed;
+    padding-left: 0;
+    padding-right: 24px;
+}
+
+/* Tables
+--------------------------------------------- */
+
+td,
+th {
+    text-align: right;
+}
+
+/* Search Form
+--------------------------------------------- */
+
+.site-header .search-form {
+    float: left;
+}
+
+.error404 .entry-content .search-form input[type=search] {
+    float: right;
+}
+
+.error404 .entry-content .search-form input[type="submit"] {
+    float: right;
+}
+
+/* Titles
+--------------------------------------------- */
+
+.content-sidebar .entry-title, .sidebar-content .entry-title {
+    text-align: right;
+}
+
+.single .entry-title:before, .page .entry-title:before {
+    float: right;
+    margin: 4px 0 0 8px;
+}
+
+.widget-title {
+    text-align: right;
+    padding: 10px 0 13px 10px;
+}
+
+.entry-comments h3:before,
+.entry-comments #reply-title:before,
+.comment-respond h3:before,
+.comment-respond #reply-title:before {
+    left: inherit;
+    right: 0;
+}
+
+.entry-comments h3,
+.entry-comments #reply-title,
+.comment-respond h3,
+.comment-respond #reply-title {
+    padding-right: 18px;
+    padding-left: 0;
+}
+
+/* Widgets
+--------------------------------------------- */
+
+/
+.widget {
+    float: left;
+    width: 100%;
+    margin-bottom: 40px;
+    word-wrap: break-word;
+}
+
+#front-intro .fp-section-1 {
+    float: right;
+    margin-left: 2%;
+    margin-right: 0;
+}
+
+#front-intro .fp-section-1 .inner {
+    text-align: right;
+}
+
+#front-intro .fp-section-2, #front-intro .fp-section-3 {
+    float: left;
+}
+
+#front-intro .fp-section-4, #front-intro .fp-section-5, #front-intro .fp-section-6 {
+    float: left;
+}
+
+#front-row-one .widget_text {
+    float: left;
+}
+
+.front-section article.post {
+    float: left;
+}
+
+#front-section-4 .per-row-1 .widget, #front-section-4 .per-row-2 .widget, #front-section-4 .per-row-3 .widget {
+    float: left;
+}
+
+#front-section-4 .per-row-2 .widget:nth-child(even) {
+    float: right;
+}
+
+.before_footer .enews form input {
+    float: right;
+}
+
+#front-section-5 .widget .button, #front-section-5 .widget .button-light, #front-section-5 .widget .button-dark {
+    right: inherit;
+    left: 0;
+}
+
+.site-header
+.widget-area {
+    float: left;
+    text-align: left;
+}
+
+/* Genesis Simple Share
+--------------------------------------------- */
+.share-before, .share-after {
+    text-align: right;
+}
+
+/* Grid Toggle
+--------------------------------------------- */
+
+ul.products.list li.product img {
+    float: right;
+    margin-left: 3.8% !important;
+    margin-right: 0 !important;
+}
+
+ul.products.list li.product h3,
+ul.products.list li.product div[itemprop="description"],
+ul.products.list li.product .price,
+ul.products.list li.product .gridlist-buttonwrap {
+    float: right;
+}
+
+.gridlist-toggle a {
+    margin-right: 0;
+    margin-left: 12px;
+}
+
+/* Grid Toggle buttons
+--------------------------------------------- */
+.gridlist-toggle {
+    float: left;
+}
+
+/* Site Header
+--------------------------------------------- */
+.site-header {
+    border-bottom: 0;
+    padding: 32px 0;
+}
+
+/* Title Area
+--------------------------------------------- */
+.title-area {
+    float: right;
+}
+
+.header-image .site-title > a {
+    float: right;
+}
+
+.header-image .site-description,
+.header-image .site-title {
+    text-indent: 9999px;
+}
+
+/* Widget Area
+--------------------------------------------- */
+.site-header
+.widget-area {
+    float: left;
+    text-align: left;
+}
+
+/* Site Navigation
+--------------------------------------------- */
+.genesis-nav-menu .sub-menu {
+    right: -9999px;
+    left: inherit;
+}
+
+.genesis-nav-menu .menu-item:hover > .sub-menu {
+    right: auto;
+}
+
+.genesis-nav-menu .sub-menu:before {
+    right: 16px;
+    left: auto;
+}
+
+.genesis-nav-menu .sub-menu a {
+    text-align: right;
+}
+
+@media only screen and (max-width: 960px) {
+    .nav-primary .genesis-nav-menu .menu-item {
+        text-align: right;
+    }
+}
+
+/* Secondary Navigation
+--------------------------------------------- */
+.nav-secondary .genesis-nav-menu {
+    float: left;
+}
+
+.nav-secondary .widget-area {
+    float: right;
+}
+
+/* Top Navigation
+--------------------------------------------- */
+.top-nav .genesis-nav-menu {
+    float: right;
+}
+
+.top-nav .widget-area {
+    float: right;
+}
+
+/* Prev Next Post navigation
+--------------------------------------------- */
+.prev-next-navigation {
+    float: right;
+}
+
+.prev-next-navigation a {
+    float: left;
+}
+
+.prev-next-navigation a:first-child {
+    float: right;
+}
+
+/* Navigation toggles
+--------------------------------------------- */
+
+@media only screen and (max-width: 960px) {
+    .sub-menu-toggle {
+        float: left;
+    }
+    .top-nav ul .menu-item {
+        float: right;
+    }
+}
+
+.next, .prev {
+    -ms-transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+    margin: 0 4px;
+}
+
+/* Entries
+--------------------------------------------- */
+.entry-content ol,
+.entry-content ul {
+    margin-right: 40px;
+}
+
+p.intro:first-letter {
+    float: right;
+}
+
+/* Entry Meta
+--------------------------------------------- */
+.sidebar-content .entry-header .entry-meta, .content-sidebar .entry-header .entry-meta {
+    text-align: right;
+}
+
+.sidebar .widget .widget-title:after {
+    right: -28px;
+    left: inherit;
+}
+
+.sidebar-content .entry-footer .entry-meta, .content-sidebar .entry-footer .entry-meta {
+    text-align: right;
+}
+
+.entry-header .entry-meta .entry-categories:before,
+.entry-header .entry-meta .entry-author-link:before,
+.entry-header .entry-meta .entry-comments-link a:before,
+.entry-header .entry-meta .entry-tags:before,
+.entry-header .entry-meta .post-edit-link:before,
+.entry-header .entry-meta .entry-time:before {
+    float: right;
+    margin: 2px 0px 2px 10px;
+}
+
+/* Comments
+--------------------------------------------- */
+.comment .avatar {
+    float: right;
+}
+
+.comment-meta {
+    float: right;
+}
+
+.comment-list li li {
+    margin-left: -32px;
+}
+
+.avatar {
+    float: right;
+    margin-right: 0 !important;
+    margin-left: 24px;
+}
+
+.archive-description, .author-box {
+    text-align: right;
+}
+
+/* Footer widgets
+--------------------------------------------- */
+.footer-widgets-1,
+.footer-widgets-2,
+.footer-widgets-3,
+.footer-widgets-4 {
+    float: right;
+}
+
+/* Woo Navigation
+--------------------------------------------- */
+p.woocommerce-result-count {
+    float: right;
+}
+
+nav.woocommerce-pagination {
+    float: left;
+}
+
+nav.woocommerce-pagination ul.page-numbers {
+    float: right;
+}
+
+nav.woocommerce-pagination ul.page-numbers li {
+    float: right;
+}
+
+nav.woocommerce-pagination ul.page-numbers li:last-child {
+    margin-left: 0px;
+}
+
+.woocommerce .woocommerce-result-count {
+    float: right;
+}
+
+.woocommerce .woocommerce-ordering {
+    float: left;
+}
+
+.woocommerce-MyAccount-navigation ul li {
+    float: right;
+}
+
+/* Woo Single product
+--------------------------------------------- */
+
+.single-product #content .product .images, .single-product .content .product .images {
+    float: right;
+}
+
+.single-product #content .product .images .thumbnails a, .single-product .content .product .images .thumbnails a {
+    float: right;
+    margin: 0 0 2% 3.8%;
+}
+
+.single-product #content .product .summary, .single-product .content .product .summary {
+    float: left;
+    padding: 20px 40px 20px 0px;
+}
+
+.single-product #content .product .summary .product_title, .single-product .content .product .summary .product_title {
+    float: right;
+    text-align: right;
+}
+
+.single-product #content .product .summary .variations_form table.variations tbody tr td.label, .single-product .content .product .summary .variations_form table.variations tbody tr td.label {
+    float: right;
+}
+
+.single-product #content .product .summary .variations_form table.variations tbody tr td.value, .single-product .content .product .summary .variations_form table.variations tbody tr td.value {
+    float: right;
+}
+
+.single-product #content .product .summary form.cart .quantity, .single-product .content .product .summary form.cart .quantity {
+    float: right;
+}
+
+.single-product #content .product .summary form.cart .button, .single-product #content .product .summary form.cart .button-light, .single-product #content .product .summary form.cart .button-dark, .single-product .content .product .summary form.cart .button, .single-product .content .product .summary form.cart .button-light, .single-product .content .product .summary form.cart .button-dark {
+    float: left;
+}
+
+.single-product #content .after-product .upsell, .single-product #content .after-product .products, .single-product #content .after-product .related, .single-product .content .after-product .upsell, .single-product .content .after-product .products, .single-product .content .after-product .related {
+    float: right;
+}
+
+/*-------------Product meta ------------*/
+.product_meta span.sku_wrapper, .product_meta span.posted_in, .product_meta span.tagged_as {
+    float: right;
+}
+
+.product_meta span.posted_in a, .product_meta span.tagged_as a {
+    float: right;
+}
+
+.product_meta span.posted_in a:first-child:before, .product_meta span.tagged_as a:first-child:before, .product_meta span.sku_wrapper:before {
+    margin-right: 0;
+    margin-left: 10px;
+}
+
+/*-------------Star rating ------------*/
+.star-rating {
+    float: right;
+}
+
+.star-rating span {
+    float: right;
+}
+
+.star-rating:before {
+    float: right;
+}
+
+/*-------------Star review ------------*/
+p.stars a {
+    float: right;
+}
+
+p.stars a.star-1:after,
+p.stars a.star-2:after,
+p.stars a.star-3:after,
+p.stars a.star-4:after,
+p.stars a.star-5:after {
+    text-align: left;
+}
+
+/* Woo Tabs
+--------------------------------------------- */
+.single .product-desc .wrap, .single-product .product-desc .wrap {
+    margin: 0 10%;
+}
+
+.single .woocommerce-tabs ul.tabs, .single-product .woocommerce-tabs ul.tabs {
+    float: right;
+}
+
+.single .woocommerce-tabs ul.tabs li, .single-product .woocommerce-tabs ul.tabs li {
+    float: right;
+}
+
+.single .woocommerce-tabs .panel, .single-product .woocommerce-tabs .panel {
+    float: right;
+}
+
+.single .woocommerce-tabs .panel #comments .commentlist .comment-text .comment-details, .single-product .woocommerce-tabs .panel #comments .commentlist .comment-text .comment-details {
+    float: right;
+}
+
+.single .woocommerce-tabs .panel #comments .commentlist .comment-text .comment-details strong, .single .woocommerce-tabs .panel #comments .commentlist .comment-text .comment-details time, .single-product .woocommerce-tabs .panel #comments .commentlist .comment-text .comment-details strong, .single-product .woocommerce-tabs .panel #comments .commentlist .comment-text .comment-details time {
+    float: right;
+}
+
+/* Woo Widgets
+--------------------------------------------- */
+.home .woocommerce li {
+    float: right;
+    margin: 0 2% 30px 0;
+}
+
+.home .woocommerce li .desc .price {
+    float: right;
+}
+
+/* Price Filter Widget
+--------------------------------------------- */
+.widget_price_filter .price_slider_amount {
+    text-align: left;
+}
+
+.widget_price_filter .price_slider_amount .button, .widget_price_filter .price_slider_amount .button-light, .widget_price_filter .price_slider_amount .button-dark {
+    float: right;
+}
+
+.widget_price_filter .ui-slider {
+    text-align: right;
+}
+
+/* Mini Cart Widget
+--------------------------------------------- */
+.widget_shopping_cart li a {
+    float: right;
+    position: relative;
+}
+
+.widget_shopping_cart .total {
+    float: left;
+    text-align: left;
+}
+
+/* WooCommerce Product Lists
+--------------------------------------------- */
+.widget_recent_reviews li img,
+.widget_recently_viewed_products li img,
+.widget_products li img,
+.widget_shopping_cart li img,
+.widget_top_rated_products li img {
+    float: right;
+}
+
+/* WooCommerce Product Search
+--------------------------------------------- */
+.woocommerce-product-search input[type="search"] {
+    float: right;
+}
+
+.widget_search input[type="submit"] {
+    left: 0;
+    right: inherit;
+}
+
+/* Woo Messages
+--------------------------------------------- */
+.woocommerce-message .showcoupon, .woocommerce-message .showlogin, .woocommerce-info .showcoupon, .woocommerce-info .showlogin {
+    margin-right: 5px;
+}
+
+.woocommerce-message .wc-forward:after, .woocommerce-info .wc-forward:after {
+    margin-right: .53em;
+}
+
+.woocommerce-message .wc-forward, .woocommerce-info .wc-forward {
+    border-left: none;
+    border-right: 2px solid #eee;
+    float: left;
+}
+
+.woocommerce-message .wc-forward:after, .woocommerce-info .wc-forward:after {
+    content:"\f177";
+    float: left;
+}
+
+/* Woo Checkout
+--------------------------------------------- */
+
+.checkout_coupon .form-row, .login .form-row {
+    width: 100%;
+    float: right;
+}
+
+.checkout_coupon .form-row label.inline, .login .form-row label.inline {
+    float: right;
+}
+
+#payment .payment_methods li img {
+    float: left;
+}
+
+#payment .place-order .button, #payment .place-order .button-light, #payment .place-order .button-dark {
+    float: left;
+}
+
+/* Woo Cart
+--------------------------------------------- */
+
+.shop_table tr td, .shop_table tr th {
+    text-align: right;
+}
+
+.shop_table td.actions .button, .shop_table td.actions .button-light, .shop_table td.actions .button-dark {
+    float: left;
+}
+
+.shop_table td.actions .coupon {
+    float: right;
+}
+
+.shop_table td.actions .coupon input.input-text {
+    margin-left: 2%;
+}
+
+.shop_table .variation dt, .shop_table .variation dd {
+    float: right;
+}
+
+.cart_totals {
+    float: left;
+}
+
+.cart_totals table th, .cart_totals table td {
+    float: right;
+}
+
+.cart_totals table th {
+    text-align: right;
+}
+
+.cart_totals table td {
+    text-align: left;
+}
+
+.cart_totals .wc-proceed-to-checkout {
+    float: left;
+}
+
+.site-header .wrap .widget-area .mini-cart {
+    float: right;
+    padding: 14px 2em 14px 0;
+}
+
+/* Mini Cart
+--------------------------------------------- */
+
+.header-widget-area .mini-cart .cart-dropdown {
+    left: 0;
+    right: inherit;
+}
+
+.header-widget-area .mini-cart .cart-dropdown li {
+    float: right;
+}
+
+.header-widget-area .mini-cart .cart-dropdown li a {
+    float: right;
+}
+
+.header-widget-area .mini-cart .cart-dropdown li a:first-of-type {
+    margin-left: 5px;
+}
+
+.header-widget-area .mini-cart .cart-dropdown li .quantity {
+    float: left;
+}
+
+.header-widget-area .mini-cart .cart-dropdown li img {
+    float: right;
+}
+
+.header-widget-area .mini-cart .cart-dropdown .total strong {
+    float: right;
+}
+
+/* Sales Badge
+--------------------------------------------- */
+.onsale {
+    right: -20px;
+}
+
+/* Grid postions sale badge
+--------------------------------------------- */
+.list li.product .desc {
+    text-align: right !important;
+}
+
+.list li.product .desc h3 {
+    text-align: right !important;
+}

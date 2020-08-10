@@ -1,0 +1,10 @@
+.lSSlideOuter .lSPager.lSpg>li a {
+    background-color: transparent !important;
+    border: 2px solid #fff;
+    height: 12px !important;
+    width: 12px !important;
+}
+
+.lSSlideOuter .lSPager.lSpg>li.active a, .lSSlideOuter .lSPager.lSpg>li:hover a {
+    background-color: #fff !important;
+}

@@ -1,0 +1,40 @@
+/* ## Sales Badge
+--------------------------------------------- */
+.onsale {
+    border-radius: 100%;
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    display: block;
+    margin: 0;
+    width: 62px;
+    height: 62px;
+    line-height: 58px;
+    position: absolute;
+    background-color: #42a781;
+    z-index: 10;
+    top: -20px;
+    left: -20px;
+    -webkit-transform: rotate(-30deg);
+    -ms-transform: rotate(-30deg);
+    transform: rotate(-30deg);
+    span {
+    	color: #fff;
+		font-size: 11px;
+		font-weight: 700;
+    }
+}
+
+/* ### Grid postions sale badge
+--------------------------------------------- */
+.list {
+  li.product {
+    .desc {
+      text-align: left !important;
+      h3 {
+        text-align: left !important;
+      }
+    }
+  }
+}

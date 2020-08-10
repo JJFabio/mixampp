@@ -1,0 +1,217 @@
+/* # Widgets General Styles
+---------------------------------------------------------------------------------------------------- */
+.widget{
+    padding: 2rem 5rem;
+}
+.widget ul li{
+    margin: 0;
+}
+.widget ul li a{
+    display: inline-block;
+    margin-bottom: 0.7rem;
+}
+.widget-title{
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+@media only screen and (max-width: 650px){
+    .widget-title{
+        font-size: 1.7rem;
+    }
+}
+/* # Wordpress Widgets
+---------------------------------------------------------------------------------------------------- */
+/* # Header right Widget area
+---------------------------------------------------------------------------------------------------- */
+.header-widget-area{
+    align-items: center;
+    display: flex;
+    padding: 1.5rem 2rem;
+}
+.header-widget-area .widget{
+    padding: 0 1rem;
+}
+.header-widget-area .widget:last-child{
+    padding-right: 0;
+}
+/* # Before entry Widget area
+---------------------------------------------------------------------------------------------------- */
+.after-entry.widget-area .widget{
+    padding: 0;
+    margin-bottom: 4rem;
+}
+/* # Calendar Widget
+---------------------------------------------------------------------------------------------------- */
+.widget_calendar{
+    margin: 0 auto;
+    max-width: 768px;
+    width: 100%;
+}
+.widget_calendar caption{
+    margin-bottom: 2rem;
+}
+.widget_calendar table#wp-calendar{
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    margin-bottom: 0;
+}
+.widget_calendar table{
+    border-top: 1px solid #ddd;
+    width: 100%;
+}
+.widget_calendar table *{
+    line-height: 1;
+}
+.widget_calendar td,
+.widget_calendar th{
+    border-bottom: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    line-height: 1.3em;
+    padding: 1rem;
+    text-align: center;
+}
+.widget_calendar table tr:nth-of-type(2n){
+    background: none;
+}
+.widget_calendar table td#today{
+    font-weight: 700;
+}
+.widget_calendar table thead{
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+}
+.widget_calendar table tfoot td{
+    border: none;
+}
+.widget_calendar table tfoot td#prev{
+    text-align: left;
+}
+.widget_calendar table tfoot td#next{
+    text-align: right;
+}
+.widget_calendar table tbody{
+    border-bottom: 1px solid #ddd;
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+}
+/* # Image Widget
+---------------------------------------------------------------------------------------------------- */
+.widget_media_image img{
+    display: block;
+}
+/* # Recent entries Widget
+---------------------------------------------------------------------------------------------------- */
+.widget_recent_entries .post-date{
+    margin-left: 1rem;
+    color: #ababab;
+    font-size: 1.5rem;
+}
+/* # Search Widget
+---------------------------------------------------------------------------------------------------- */
+.widget_search .search-form{
+    align-content: center;
+    display: flex;
+    width: 100%;
+}
+.widget_search input[type="submit"]{
+    background: none;
+    border-radius: 0;
+    color: #000;
+    font-family: 'Font Awesome 5 Free';
+    height: auto;
+    margin: 0 0 0 5px;
+    position: relative;
+    width: 25px;
+}
+.widget_search input[type="submit"]:hover{
+    background: none;
+    color: #000;
+}
+/* # RSS Widget
+---------------------------------------------------------------------------------------------------- */
+.widget_rss .rss-date{
+    margin-left: 1rem;
+    color: #ababab;
+    font-size: 1.5rem;
+}
+.widget_rss cite{
+    font-weight: 700;
+}
+/* # Menu navigation Widget
+---------------------------------------------------------------------------------------------------- */
+.widget_nav_menu ul{
+    list-style: none;
+}
+.widget_nav_menu ul li li a{
+    font-size: 1.5rem;
+}
+.widget_nav_menu ul li li li a{
+    font-size: 1.2rem;
+}
+/* # Genesis Widgets
+---------------------------------------------------------------------------------------------------- */
+/* # Featured page Widgets
+---------------------------------------------------------------------------------------------------- */
+.widget.featured-content .entry-title{
+    margin: 0 0 2rem 0;
+    text-align: left;
+}
+.widget.featured-content .entry.post .entry-title{
+    margin-bottom: 0;
+}
+.widget.featured-content .entry.post .entry-meta{
+    margin: 1rem 0;
+    text-align: left;
+}
+.widget.featured-content .entry:last-child{
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+.widget.featured-content .avatar{
+    margin: 0 1rem 1rem 0;
+}
+.widget.featured-content .entry .entry-header{
+    margin-bottom: 2rem;
+}
+/* # Woocommerce
+---------------------------------------------------------------------------------------------------- */
+/* # Search Widget
+---------------------------------------------------------------------------------------------------- */
+.widget_product_search .woocommerce-product-search{
+    align-content: center;
+    display: flex;
+}
+.widget_product_search button[type="submit"]{
+    background: none;
+    border-radius: 0;
+    border: none;
+    color: #000;
+    font-family: 'Font Awesome 5 Free';
+    height: auto;
+    margin: 0 0 0 5px;
+    padding: 0;
+    position: relative;
+    width: 25px;
+}
+.widget_product_search button[type="submit"]:hover{
+    background: none;
+    color: #000;
+}
+/* # Cart Widget
+---------------------------------------------------------------------------------------------------- */
+.widget_shopping_cart .buttons a{
+    font-size: 1.4rem;
+    text-transform: none;
+    padding: 1rem 2rem;
+}
+.header-widget-area .widget_shopping_cart{
+    text-align: left;
+}
+.header-widget-area .widget_shopping_cart .cart_list li a{
+    margin-bottom: 0;
+}
+.header-widget-area .widget_shopping_cart .total{
+    margin-bottom: 1rem;
+}

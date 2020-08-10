@@ -1,0 +1,251 @@
+/* ## Woo Cart
+--------------------------------------------- */
+.shop_table {
+	border: 1px solid #e9e9e9;
+	padding: 1em;
+	width: 100%;
+	thead {
+		border-bottom: 1px solid #e9e9e9;
+	}
+	tr {
+		width: 100%;
+		border-bottom: 1px solid #e9e9e9;
+		td, th {
+			border-right: 1px solid #e9e9e9;
+			display: table-cell;
+			padding: .857em 1.387em;
+			text-align: left;
+			vertical-align: middle;
+			width: auto;
+		}
+	}
+	td.order-actions {
+		.button {
+			background: transparent;
+		}
+	}
+	td.actions {
+		.button {
+			background: none;
+			border: 1px solid;
+			border-color: $normal;
+			color: $normal;
+			float: right;
+		}
+		.button:hover {
+			background: $normal;
+			color: #fff;
+		}
+		.coupon {
+			width: 50%;
+			float: left;
+			border: 0;
+			text-align: left;
+			padding: 0;
+			margin: 0;
+			label {
+				display: none;
+			}
+			input.input-text {
+			    width: 50%;
+			    margin-right: 2%;
+			    padding: 10px;
+			}
+		}
+	}
+	td.product-thumbnail {
+		text-align: center;
+		img {
+  			max-width: 50px;
+  		}
+	}
+	td.product-name {
+		font-weight: 500;
+	}
+
+	td.product-subtotal {
+		font-weight: 500;
+	}
+	// tbody td {
+ //  		border-bottom: 1px solid #e9e9e9;
+	// }
+	.variation {
+		dt, dd {
+			float :left;
+			margin: 0;
+			width :50%;
+			p {
+				margin: 0;
+			}
+		}
+	}
+}
+
+
+
+.cart_totals {
+	float: right;
+	width: 48%;
+	h2 {
+		padding-bottom: 10px;
+		text-transform: uppercase;
+		font-weight: 700;
+		font-size: 2rem;
+	}
+	table {
+		border: 1px solid #e9e9e9;
+		margin-bottom: 2em;
+		width: 100%;
+		tbody {
+			border-bottom: none;
+		}
+		th, td {
+			float: left;
+			width: 50%;
+			padding: .857em 1.387em;
+		}
+		th {
+			text-align: left;
+		}
+		td {
+			border: none;
+			text-align: right;
+		}
+		tr.order-total {
+			font-weight: 700;
+			.amount {
+			}
+		}
+		#shipping_method li {
+			list-style: none;
+		}
+	}
+	.wc-proceed-to-checkout {
+		float: right;
+		a {
+			color: #fff !important;
+		}
+	}
+}
+
+.wc-backward {
+	color: #fff !important;
+}
+
+.site-header .wrap .widget-area .mini-cart {
+    display: block;
+    float: right;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    font-size: 1.2rem;
+    font-weight: 500;
+    letter-spacing: 1px;
+    line-height: 1;
+    list-style: none;
+    padding: 14px 0 14px 2em;
+    position: relative;
+}
+
+.site-header .wrap .widget-area .mini-cart .cart-amount {
+    margin-right: 16px;
+}
+
+.site-header .wrap .widget-area .mini-cart .cart-count {
+    position: absolute;
+    bottom: 20px;
+    width: 22px;
+    height: 22px;
+    color: white;
+    font-size: 12px;
+    line-height: 20px;
+    text-align: center;
+    display: inline-block;
+    background-color: $normal;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    border-radius: 50px;
+    right: 10px;
+
+}
+
+.site-header .wrap .widget-area .mini-cart:before {
+    content:"";
+	display: block;
+    content: "";
+    width: 26px;
+    height: 44px;
+    font-family: "FontAwesome";
+    background: url('images/cart.png');
+    background-position: 0 0;
+    background-repeat: no-repeat;
+}
+
+/* ##  Mini Cart
+--------------------------------------------- */
+.header-widget-area {
+	.mini-cart {
+		position: relative;
+		.cart-dropdown {
+			border: 1px solid #eaeaea;
+			height: 0;
+			position: absolute;
+		    top: 72px;
+		    z-index: 9999;
+		    background: white;
+		    width: 280px;
+		    opacity: 0;
+		    padding: 20px;
+		    right: 0;
+		    visibility: hidden;
+		    li {
+		    	float: left;
+		    	padding: 12px 0;
+		    	width: 100%;
+		    	a {
+		    		color: #3f3f3f;
+		    		float: left;
+		    	}
+		    	a:first-of-type {
+		    		margin-right: 5px;
+		    	}
+		    	.quantity {
+		    		float: right;
+		    	}
+		    	img {
+		    		display: none;
+		    		float: left;
+		    		height: 80px;
+		    		width: 80px;
+		    	}
+		    }
+		    .total {
+		    	border-top: 2px solid #eee;
+		    	clear: both;
+		    	padding: 12px 0;
+		    	strong {
+		    		float: left;
+		    	}
+		    }
+		    .buttons {
+		    	margin: 0;
+			    .wc-forward {
+			    	display: none;
+			    }
+			    .checkout {
+			    	display: block;
+			    	text-align: center;
+			    }
+			}
+		}
+	}
+	.mini-cart:hover {
+		.cart-dropdown {
+			transition: all .5s ease-in-out;
+			height: auto;
+			opacity: 1;
+			visibility: visible;
+		}
+	}
+}

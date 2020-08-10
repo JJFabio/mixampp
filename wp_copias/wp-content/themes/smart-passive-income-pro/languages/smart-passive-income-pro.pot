@@ -1,0 +1,216 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Smart Passive Income Pro 1.1.2\n"
+"POT-Creation-Date: 2017-01-26 17:53-0500\n"
+"PO-Revision-Date: 2017-01-16 00:32-0500\n"
+"Last-Translator: StudioPress <translations@studiopress.com>\n"
+"Language-Team: StudioPress <translations@studiopress.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.11\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: front-page.php:58
+msgid "Main Content"
+msgstr ""
+
+#: functions.php:69
+msgid "Menu"
+msgstr ""
+
+#: functions.php:70
+msgid "Submenu"
+msgstr ""
+
+#: functions.php:116
+msgid "After Header Menu"
+msgstr ""
+
+#: functions.php:116
+msgid "Footer Menu"
+msgstr ""
+
+#: functions.php:163
+msgid ""
+"By [post_author_posts_link] on [post_date] [post_comments zero=\"0\" one="
+"\"1\" more=\"%\"][post_edit]"
+msgstr ""
+
+#: functions.php:198
+msgid "Search for..."
+msgstr ""
+
+#: functions.php:274
+msgid "Front Page 1"
+msgstr ""
+
+#: functions.php:275
+msgid "The first section on the front page."
+msgstr ""
+
+#: functions.php:279
+msgid "Front Page 2"
+msgstr ""
+
+#: functions.php:280
+msgid "The second section on the front page."
+msgstr ""
+
+#: functions.php:284
+msgid "Front Page 3 - Top"
+msgstr ""
+
+#: functions.php:285
+msgid "The top half of the third section on the front page."
+msgstr ""
+
+#: functions.php:289
+msgid "Front Page 3 - Bottom"
+msgstr ""
+
+#: functions.php:290
+msgid "The bottom half of the third section on the front page."
+msgstr ""
+
+#: functions.php:294
+msgid "Front Page 4"
+msgstr ""
+
+#: functions.php:295
+msgid "The fourth section on the front page."
+msgstr ""
+
+#: functions.php:299
+msgid "Footer Banner"
+msgstr ""
+
+#: functions.php:300
+msgid "A sitewide section just above the footer section."
+msgstr ""
+
+#: functions.php:304
+msgid "Footer Widgets"
+msgstr ""
+
+#: functions.php:305
+msgid "This is the footer section."
+msgstr ""
+
+#: lib/customize.php:36
+msgid "Front Page Background Image"
+msgstr ""
+
+#: lib/customize.php:39
+msgid ""
+"Use the included default image or personalize your site by uploading your "
+"own image."
+msgstr ""
+
+#: lib/customize.php:40
+msgid "The default image is "
+msgstr ""
+
+#: lib/customize.php:41
+msgid "2000 pixels wide and 833 pixels tall."
+msgstr ""
+
+#: lib/customize.php:63
+msgid ""
+"Change the default primary color including links, primary buttons, etc..."
+msgstr ""
+
+#: lib/customize.php:64
+msgid "Primary Color"
+msgstr ""
+
+#: lib/customize.php:85
+msgid ""
+"Change the background color of the Front Page 1 section, Footer Banner "
+"section, and menus."
+msgstr ""
+
+#: lib/customize.php:86
+msgid "Secondary Color"
+msgstr ""
+
+#: lib/customize.php:108
+msgid "Change the default background color for the \"Front Page - 3\" section."
+msgstr ""
+
+#: lib/customize.php:109
+msgid "Front Page 3 - Background Color"
+msgstr ""
+
+#: lib/customize.php:130
+msgid "Front Page 2 - Background Image"
+msgstr ""
+
+#: lib/customize.php:141
+msgid "Post and Page Images"
+msgstr ""
+
+#: lib/customize.php:142
+msgid ""
+"Choose if you would like to display the featured image above the content."
+msgstr ""
+
+#: lib/customize.php:160
+msgid "Show featured image above post content?"
+msgstr ""
+
+#: lib/woocommerce/woocommerce-notice.php:54
+#, php-format
+msgid ""
+"Please install and activate <a href=\"https://wordpress.org/plugins/genesis-"
+"connect-woocommerce/\" target=\"_blank\">Genesis Connect for WooCommerce</a> "
+"to <strong>enable WooCommerce support for %s</strong>."
+msgstr ""
+
+#: lib/woocommerce/woocommerce-notice.php:68
+msgid "install and activate Genesis Connect for WooCommerce"
+msgstr ""
+
+#: lib/woocommerce/woocommerce-notice.php:70
+#, php-format
+msgid "Please %s to <strong>enable WooCommerce support for %s</strong>."
+msgstr ""
+
+#: lib/woocommerce/woocommerce-setup.php:75
+msgid "Previous Page"
+msgstr ""
+
+#: lib/woocommerce/woocommerce-setup.php:76
+msgid "Next Page"
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "Smart Passive Income Pro"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "http://my.studiopress.com/themes/smart-passive-income/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"With its friendly typography and bold design, Smart Passive Income Pro gives "
+"a welcoming and familiar face to your online platform."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "StudioPress"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://www.studiopress.com/"
+msgstr ""

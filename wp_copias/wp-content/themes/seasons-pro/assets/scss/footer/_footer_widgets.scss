@@ -1,0 +1,56 @@
+/* ## Footer widgets
+--------------------------------------------- */
+.footer-widgets {
+	background-color: #fff;
+	border-top: 1px solid #ededed;
+	clear: both;
+	font-size: 14px;
+	font-size: 1.4rem;
+	padding-top: 80px;
+	.widget-title {
+		color: #333;
+		font-family: 'Roboto', sans-serif;
+		font-size: 14px;
+		font-size: 1.4rem;
+		font-weight: 700;
+		padding:10px 10px 40px 0;
+		text-align: left;
+		text-transform: uppercase;
+	}
+	.wrap {
+		border-bottom: 1px solid #f2f2f2;
+	}
+}
+
+.footer-widgets,
+.footer-widgets a {
+	color: #595959;
+}
+
+.footer-widgets a.button,
+.footer-widgets a:hover,
+.footer-widgets a:focus {
+	color: #595959;
+}
+
+.footer-widgets li {
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+}
+
+.footer-widgets .widget {
+	margin-bottom: 40px;
+}
+
+.footer-widgets p:last-child {
+	margin-bottom: 0;
+}
+
+.footer-widgets-1,
+.footer-widgets-2,
+.footer-widgets-3,
+.footer-widgets-4 {
+	float: left;
+	width: 25%;
+	padding: 0 40px 40px 0;
+}

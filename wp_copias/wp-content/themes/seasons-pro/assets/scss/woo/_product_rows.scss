@@ -1,0 +1,109 @@
+/* ## Woo Product Rows
+--------------------------------------------- */
+.woocommerce, .full-width-content {
+	#genesis-content, .related {
+		h2 {
+			width :100%;
+		}
+		ul.products {
+			clear: both;
+			float: none;
+			list-style: none;
+			width: 100%;
+			li.product {
+				border: 1px solid #eee;
+				box-sizing: border-box;
+				background: #fff;
+				float: left;
+				margin: 0;
+				margin-bottom: 5%;
+				margin-right: 5%;
+				padding: 0;
+				position: relative;
+				width: 30%;
+				img.wp-post-image {
+					margin-bottom: 0;
+					width: 100%;
+				}
+				.desc {
+					padding: 2% 1% 4% 1%;
+					text-align: center;
+					a {
+						color: #3f3f3f;
+					}
+					h3 {
+						font-family: 'Work Sans', sans-serif;
+						font-size: 16px;
+						font-size: 1.6rem;
+						font-weight: 500;
+						margin-bottom: 0;
+						text-align: center;
+						text-transform: uppercase;
+					}
+					h3:after {
+						content: "";
+						width: 10%;
+						margin: 0 auto;
+						margin-top: 2px;
+						height: 2px;
+						background: #42a781;
+						display: block;
+					}
+					.price {
+						display: inline-block;
+						font-size: .9em;
+						font-weight: 700;
+						ins {
+							text-decoration: none;
+						}
+						del {
+							opacity: .6;
+							margin-right: 5px;
+						}
+					}
+					a.button {
+						background: none;
+						border: 1px solid #cecece;
+						color: #656D78;
+						margin: .5em 0;
+					}
+				}
+			}
+			li.last {
+				margin-right: 0;
+			}
+		}
+	}
+}
+
+.related {
+	background: #f8f8f8;
+	padding: 120px 0 !important;
+	text-align: center;
+	ul.products, h2 {
+		display: inline-block;
+		float: none;
+		margin: 0 auto;
+		max-width: 1200px;
+		padding: 0 10%;
+	}
+	h2 {
+		font-family: 'Work Sans', sans-serif;
+		font-size: 24px;
+		font-size: 2.4rem;
+		font-weight: 700;
+		text-align: center;
+		line-height: 1.2;
+		margin-bottom: 20px;
+		text-transform: uppercase;
+	}
+	h2:after {
+		content: "";
+		width: 10%;
+		margin: 0 auto;
+		margin-top: 16px;
+		height: 2px;
+		background: $normal;
+		display: block;
+	}
+}

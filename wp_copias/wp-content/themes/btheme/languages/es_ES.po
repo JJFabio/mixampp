@@ -1,0 +1,539 @@
+# <!=Copyright (C) 2017 StudioPress
+# This file is distributed under the GPL-2.0+.=!>
+msgid ""
+msgstr ""
+"Project-Id-Version: B Theme 1.3\n"
+"Report-Msgid-Bugs-To: StudioPress <translations@studiopress.com>\n"
+"POT-Creation-Date: 2018-08-09 20:47+0200\n"
+"PO-Revision-Date: 2018-08-09 20:47+0200\n"
+"Last-Translator: StudioPress <translations@studiopress.com>\n"
+"Language-Team: English <translations@studiopress.com>\n"
+"Language: es_ES\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.1.1\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;esc_html_e\n"
+"X-Textdomain-Support: yes\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:14
+msgid "Typical error 404"
+msgstr "Típico error 404"
+
+#: 404.php:19 404.php:27
+msgid ""
+"It seems this page doesn't exist, or you've followed an incorrect link. "
+"Please, try to use this search feature to find what you're looking for:"
+msgstr ""
+"Parece ser que has llegado a una página que no existe, o te han enlazado "
+"mal. Prueba de buscar el contenido que quieres encontrar usando este "
+"buscador:"
+
+#: inc/customizer/customizer.php:54
+#: inc/setup-wizard/class-asi-setup-wizard.php:417
+#: inc/setup-wizard/class-asi-setup-wizard.php:899 inc/updater/updater.php:76
+msgid "Homepage"
+msgstr "Página de Inicio"
+
+#: inc/customizer/customizer.php:61 inc/customizer/customizer.php:72
+msgid "Title page"
+msgstr "Título de la página"
+
+#: inc/customizer/customizer.php:80
+msgid "Banner"
+msgstr "Banner"
+
+#: inc/customizer/customizer.php:91
+msgid "Title"
+msgstr "Título"
+
+#: inc/customizer/customizer.php:103
+msgid "Subtitle"
+msgstr "Subtítulo"
+
+#: inc/customizer/customizer.php:111
+#: inc/setup-wizard/class-asi-setup-wizard.php:457
+msgid "Click here"
+msgstr "Clica aquí"
+
+#: inc/customizer/customizer.php:116
+msgid "Button text"
+msgstr "Texto del botón"
+
+#: inc/customizer/customizer.php:129
+msgid "Button link"
+msgstr "Enlace del botón"
+
+#: inc/customizer/customizer.php:143
+msgid "Select the item to display"
+msgstr "Selecciona el elemento a mostrar"
+
+#: inc/customizer/customizer.php:145 inc/customizer/customizer.php:158
+msgid "Image"
+msgstr "Imagen"
+
+#: inc/customizer/customizer.php:146
+msgid "Video"
+msgstr "Vídeo"
+
+#: inc/customizer/customizer.php:170
+msgid "Link of the image"
+msgstr "Link de la imagen"
+
+#: inc/customizer/customizer.php:183
+msgid "URL of the video"
+msgstr "URL del vídeo"
+
+#: inc/customizer/customizer.php:192
+msgid "CTA boxes"
+msgstr "Cajas CTA"
+
+#: inc/customizer/customizer.php:204
+msgid "Cta text 1"
+msgstr "Texto Cta 1"
+
+#: inc/customizer/customizer.php:217
+msgid "Cta Link 1"
+msgstr "Link Cta 1"
+
+#: inc/customizer/customizer.php:230
+msgid "Cta image 1"
+msgstr "Imagen Cta 1"
+
+#: inc/customizer/customizer.php:242
+msgid "Cta text 2"
+msgstr "Texto Cta 2"
+
+#: inc/customizer/customizer.php:255
+msgid "Cta Link 2"
+msgstr "Link Cta 2"
+
+#: inc/customizer/customizer.php:268
+msgid "Cta image 2"
+msgstr "Imagen Cta 2"
+
+#: inc/customizer/customizer.php:280
+msgid "Cta text 3"
+msgstr "Texto Cta 3"
+
+#: inc/customizer/customizer.php:293
+msgid "Cta Link 3"
+msgstr "Link Cta 3"
+
+#: inc/customizer/customizer.php:306
+msgid "Cta image 3"
+msgstr "Imagen Cta 3"
+
+#: inc/customizer/customizer.php:314
+msgid "Posts"
+msgstr "Entradas"
+
+#: inc/customizer/customizer.php:327
+msgid "Select posts to display"
+msgstr "Selecciona las entradas a mostrar"
+
+#: inc/customizer/customizer.php:329
+msgid "Last posts"
+msgstr "Últimas entradas"
+
+#: inc/customizer/customizer.php:330 inc/customizer/customizer.php:357
+msgid "Featured posts"
+msgstr "Entradas destacadas"
+
+#: inc/customizer/customizer.php:340
+msgid "Number of posts to display"
+msgstr "Número de entradas a mostrar"
+
+#: inc/customizer/customizer.php:369
+msgid "Colors"
+msgstr "Colores"
+
+#: inc/customizer/customizer.php:375
+msgid "Buttons"
+msgstr "Botones"
+
+#: inc/customizer/customizer.php:385 inc/customizer/customizer.php:457
+msgid "Text color"
+msgstr "Color del texto"
+
+#: inc/customizer/customizer.php:396
+msgid "Background color"
+msgstr "Color de fondo"
+
+#: inc/customizer/customizer.php:407
+msgid "Border color"
+msgstr "Color del borde"
+
+#: inc/customizer/customizer.php:418
+msgid "Text color when the mouse passes over"
+msgstr "Color del texto cuando el mouse pasa por encima"
+
+#: inc/customizer/customizer.php:429
+msgid "Background color when the mouse passes over"
+msgstr "Color de fondo cuando el mouse pasa por encima"
+
+#: inc/customizer/customizer.php:440
+msgid "Border color when the mouse passes over"
+msgstr "Color del border cuando el mouse pasa por encima"
+
+#: inc/customizer/customizer.php:447
+msgid "Links"
+msgstr "Enlaces"
+
+#: inc/customizer/customizer.php:467
+#: inc/setup-wizard/class-asi-setup-wizard.php:33
+msgid "Header"
+msgstr "Cabecera"
+
+#: inc/customizer/customizer.php:479
+#: inc/setup-wizard/class-asi-setup-wizard.php:501
+msgid "Header position"
+msgstr "Posición de la cabecera"
+
+#: inc/customizer/customizer.php:481
+#: inc/setup-wizard/class-asi-setup-wizard.php:504
+msgid "Header fixed"
+msgstr "Cabecera fija"
+
+#: inc/customizer/customizer.php:482
+#: inc/setup-wizard/class-asi-setup-wizard.php:505
+msgid "Header relative"
+msgstr "Cabecera relativa"
+
+#: inc/customizer/customizer.php:491
+#: inc/setup-wizard/class-asi-setup-wizard.php:510
+msgid "Background transparency"
+msgstr "Transparencia del fondo"
+
+#: inc/customizer/customizer.php:503
+#: inc/setup-wizard/class-asi-setup-wizard.php:38
+msgid "Footer"
+msgstr "Pie de página"
+
+#: inc/customizer/customizer.php:513
+#: inc/setup-wizard/class-asi-setup-wizard.php:660
+msgid "Text"
+msgstr "Texto"
+
+#: inc/customizer/customizer.php:520
+#: inc/setup-wizard/class-asi-setup-wizard.php:647
+msgid "&mdash; Select &mdash;"
+msgstr "&mdash; Seleccionar &mdash;"
+
+#: inc/customizer/customizer.php:529
+#: inc/setup-wizard/class-asi-setup-wizard.php:520
+#: inc/setup-wizard/class-asi-setup-wizard.php:666
+msgid "Menu"
+msgstr "Menú"
+
+#: inc/customizer/customizer.php:541
+msgid "Font"
+msgstr "Fuente"
+
+#: inc/customizer/customizer.php:551
+msgid "Google Font"
+msgstr "Google Font"
+
+#: inc/customizer/customizer.php:561
+msgid "Social networks"
+msgstr "Redes sociales"
+
+#: inc/customizer/customizer.php:571
+msgid "Add social networks in the footer?"
+msgstr "Agregar redes sociales en el pie de página?"
+
+#: inc/customizer/customizer.php:600
+msgid "link"
+msgstr "enlace"
+
+#: inc/customizer/inc/class-wp-customize-google-font.php:22
+msgid "We use Google Fonts, simply select your choice"
+msgstr "Usamos Google Fonts, simplemente selecciona tu opción"
+
+#: inc/genesis.php:142
+msgid "Search"
+msgstr "Buscar"
+
+#: inc/genesis.php:148
+msgid "Search in the web..."
+msgstr "Buscar en la web..."
+
+#: inc/setup-wizard/class-asi-setup-wizard.php:23
+msgid "Install plugins"
+msgstr "Instalar plugins"
+
+#: inc/setup-wizard/class-asi-setup-wizard.php:28
+msgid "Create pages"
+msgstr "Crear páginas"
+
+#: inc/setup-wizard/class-asi-setup-wizard.php:43
+msgid "Import"
+msgstr "Importar"
+
+#: inc/setup-wizard/class-asi-setup-wizard.php:48
+msgid "Ready!"
+msgstr "¡Listo!"
+
+#: inc/setup-wizard/class-asi-setup-wizard.php:102
+#: inc/setup-wizard/class-asi-setup-wizard.php:908
+#: inc/setup-wizard/setup-wizard.php:43
+msgid "Setup wizard"
+msgstr "Asistente de configuración"
+
+#: inc/setup-wizard/class-asi-setup-wizard.php:119
+msgid "Return to your dashboard"
+msgstr "Volver al escritorio"
+
+#: inc/setup-wizard/class-asi-setup-wizard.php:164
+msgid "Check the plugins you want to install and activate"
+msgstr "Marca los plugins que quieres instalar y activar"
+
+#: inc/setup-wizard/class-asi-setup-wizard.php:345
+msgid "Create a Homepage like the demo"
+msgstr "Crear una página de Inicio como en la demo"
+
+#: inc/setup-wizard/class-asi-setup-wizard.php:353
+msgid "Create a Blog page"
+msgstr "Crear una página de Blog"
+
+#: inc/setup-wizard/class-asi-setup-wizard.php:362
+msgid "Create Contact page"
+msgstr "Crear una página de Contacto"
+
+#: inc/setup-wizard/class-asi-setup-wizard.php:401
+msgid "Contact"
+msgstr "Contacto"
+
+#: inc/setup-wizard/class-asi-setup-wizard.php:495
+msgid "Header position & transparency"
+msgstr "Posición y transparencia de la cabecera"
+
+#: inc/setup-wizard/class-asi-setup-wizard.php:529
+msgid "Create menu and assign it to primary"
+msgstr "Crear menú y asignarlo como primario"
+
+#: inc/setup-wizard/class-asi-setup-wizard.php:534
+msgid "Menu items"
+msgstr "Ítems del menú"
+
+#: inc/setup-wizard/class-asi-setup-wizard.php:542
+msgid "Select a page"
+msgstr "Selecciona una página"
+
+#: inc/setup-wizard/class-asi-setup-wizard.php:549
+msgid "Remove"
+msgstr "Eliminar"
+
+#: inc/setup-wizard/class-asi-setup-wizard.php:555
+msgid "Add"
+msgstr "Añadir"
+
+#: inc/setup-wizard/class-asi-setup-wizard.php:707
+msgid "Create test posts"
+msgstr "Crear entradas de prueba"
+
+#: inc/setup-wizard/class-asi-setup-wizard.php:716
+msgid "Create test products"
+msgstr "Crear productos de prueba"
+
+#: inc/setup-wizard/class-asi-setup-wizard.php:887
+msgid "Customize"
+msgstr "Personalizar"
+
+#: inc/setup-wizard/class-asi-setup-wizard.php:888
+msgid "You can modify the theme from the customizer"
+msgstr "Puedes modificar el theme desde el personalizador"
+
+#: inc/setup-wizard/class-asi-setup-wizard.php:889
+msgid "Go to Customizer"
+msgstr "Ir al Personalizador"
+
+#: inc/setup-wizard/class-asi-setup-wizard.php:893
+msgid "Dashboard"
+msgstr "Escritorio"
+
+#: inc/setup-wizard/class-asi-setup-wizard.php:894
+#: inc/setup-wizard/class-asi-setup-wizard.php:895
+msgid "Go to Dashboard"
+msgstr "Ir al Escritorio"
+
+#: inc/setup-wizard/class-asi-setup-wizard.php:900
+msgid "Theme is set, now you can go to the homepage"
+msgstr "El theme está configurado, ahora puedes ir a la página de inicio"
+
+#: inc/setup-wizard/class-asi-setup-wizard.php:901
+msgid "Go to homepage"
+msgstr "Ir a la página de inicio"
+
+#: inc/setup-wizard/class-asi-setup-wizard.php:909
+msgid "Run the Setup Wizard"
+msgstr "Ejecutar el asistente de configuración"
+
+#: inc/updater/updater.php:21
+msgid "Error"
+msgstr "Error"
+
+#: inc/updater/updater.php:22
+msgid "An error occurred, please try again."
+msgstr "Ha ocurrido un error. Por favor intente de nuevo."
+
+#: inc/updater/updater.php:23
+#, php-format
+msgid "Your license key expired on %s."
+msgstr "Tu clave de licencia expiró en %s."
+
+#: inc/updater/updater.php:24
+msgid "Your license key has been disabled."
+msgstr "Tu clave de licencia se ha deshabilitado."
+
+#: inc/updater/updater.php:25
+msgid "Invalid license."
+msgstr "Licencia no válida."
+
+#: inc/updater/updater.php:26
+msgid "Your license is not active for this URL."
+msgstr "Tu licencia no está activa para esta URL."
+
+#: inc/updater/updater.php:27
+#, php-format
+msgid "This appears to be an invalid license key for %s."
+msgstr "Esto parece ser una clave de licencia no válida para %s."
+
+#: inc/updater/updater.php:28
+msgid "Your license key has reached its activation limit."
+msgstr "Tu clave de licencia ha alcanzado su límite de activación."
+
+#: inc/updater/updater.php:29
+msgid "Así Themes License"
+msgstr "Licencia de Así Themes"
+
+#: inc/updater/updater.php:30
+msgid "Enter your license key."
+msgstr "Introduzca la clave de licencia."
+
+#: inc/updater/updater.php:31
+msgid "License Key"
+msgstr "Clave de licencia"
+
+#: inc/updater/updater.php:32
+msgid "License Action"
+msgstr "Acción de licencia"
+
+#: inc/updater/updater.php:33
+msgid "License information"
+msgstr "Información de licencia"
+
+#: inc/updater/updater.php:34
+msgid "Deactivate License"
+msgstr "Desactivar Licencia"
+
+#: inc/updater/updater.php:35
+msgid "Activate License"
+msgstr "Activar Licencia"
+
+#: inc/updater/updater.php:36
+#, php-format
+msgid "Active license for \"%s\""
+msgstr "Licencia activa para \"%s\""
+
+#: inc/updater/updater.php:37 inc/updater/updater.php:50
+msgid "License status is unknown."
+msgstr "El estado de la licencia es desconocido."
+
+#: inc/updater/updater.php:38
+msgid "Renew?"
+msgstr "¿Renovar?"
+
+#: inc/updater/updater.php:39
+msgid "unlimited"
+msgstr "ilimitado"
+
+#: inc/updater/updater.php:40
+msgid "License key is active."
+msgstr "La clave de licencia está activa."
+
+#: inc/updater/updater.php:41
+#, php-format
+msgid "Expires %s."
+msgstr "Caduca  %s."
+
+#: inc/updater/updater.php:42
+msgid "Lifetime License."
+msgstr "Licencia de por vida."
+
+#: inc/updater/updater.php:43
+#, php-format
+msgid "You have %1$s / %2$s sites activated."
+msgstr "Tienes %1$s / %2$s sitios activados."
+
+#: inc/updater/updater.php:44
+#, php-format
+msgid "License key expired %s."
+msgstr "Clave de licencia caducada %s."
+
+#: inc/updater/updater.php:45
+msgid "License key has expired."
+msgstr "La clave de licencia ha caducado."
+
+#: inc/updater/updater.php:46
+msgid "License keys do not match."
+msgstr "Las claves de licencia no coinciden."
+
+#: inc/updater/updater.php:47
+msgid "License is inactive."
+msgstr "La licencia está inactiva."
+
+#: inc/updater/updater.php:48
+msgid "License key is disabled."
+msgstr "La clave de licencia está deshabilitada."
+
+#: inc/updater/updater.php:49
+msgid "Site is inactive."
+msgstr "El sitio está inactivo."
+
+#: inc/updater/updater.php:51
+msgid ""
+"Updating this theme will lose any customizations you have made. 'Cancel' to "
+"stop, 'OK' to update."
+msgstr ""
+"Al actualizar este tema se perderán las personalizaciones que hayas "
+"realizado. 'Cancelar' para detener, 'Aceptar' para actualizar."
+
+#: inc/updater/updater.php:52
+#, php-format
+msgid ""
+"<strong>%1$s %2$s</strong> is available. <a href=\"%3$s\" class=\"thickbox\" "
+"title=\"%4s\">Check out what's new</a> or <a href=\"%5$s\"%6$s>update now</"
+"a>."
+msgstr ""
+"<strong>%1$s %2$s</strong> está disponible. <a href=\"%3$s\" class=\"thickbox"
+"\" title=\"%4s\">Consulta las novedades</a> o <a href=\"%5$s\"%6$s>actualiza "
+"ahora</a>."
+
+#: inc/woocommerce/woocommerce.php:33 inc/woocommerce/woocommerce.php:174
+msgid "View cart"
+msgstr "Ver carrito"
+
+#: inc/woocommerce/woocommerce.php:62 inc/woocommerce/woocommerce.php:78
+#: inc/woocommerce/woocommerce.php:159
+msgid "Buy"
+msgstr "Comprar"
+
+#: inc/woocommerce/woocommerce.php:153
+msgid "Woocommerce"
+msgstr "Woocommerce"
+
+#: inc/woocommerce/woocommerce.php:163
+msgid "'Add to cart' button text"
+msgstr "Texto del botón 'Añadir al carrito'"
+
+#: inc/woocommerce/woocommerce.php:164
+msgid "Leave empty to show default value"
+msgstr "Dejar vacío para mostrar el valor predeterminado"
+
+#~ msgid "Color text"
+#~ msgstr "Color del texto"
